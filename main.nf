@@ -64,7 +64,7 @@ community_id = params.community_id
 validation_file = file(params.validation_result)
 assessment_file = file(params.assessment_results)
 data_model_export_dir = file(params.data_model_export_dir)
-aggregation_dir = Channel.fromPath(params.outdir, type: 'dir')
+aggregation_dir = file(params.outdir, type: 'dir')
 augmented_benchmark_data = file(params.augmented_assess_dir, type: 'dir')
 
 // other
@@ -123,26 +123,26 @@ process compute_metrics {
 
 
 process consolidation {
-	tag "Performing benchmark assessment and building plots"
+    tag "Performing benchmark assessment and building plots"
 	publishDir "${aggregation_dir.parent}", pattern: "aggregation_dir", saveAs: { filename -> aggregation_dir.name }, mode: 'copy'
 	publishDir "${data_model_export_dir.parent}", pattern: "data_model_export.json", saveAs: { filename -> data_model_export_dir.name }, mode: 'copy'
 	publishDir "${augmented_benchmark_data.parent}", pattern: "augmented_benchmark_data", saveAs: { filename -> augmented_benchmark_data.name }, mode: 'copy'
 
-    input:
+	input:
 	path benchmark_data
 	file assessment_out
 	file validation_out
 
-    output:
-    path 'aggregation_dir', type: 'dir'
+	output:
+	path 'aggregation_dir', type: 'dir'
 	path 'augmented_benchmark_data', type: 'dir'
 	path 'data_model_export.json'
 
-    """
-    cp -Lpr $benchmark_data augmented_benchmark_data
+	"""
+	cp -Lpr $benchmark_data augmented_benchmark_data
 	python /app/manage_assessment_data.py -b augmented_benchmark_data -p $assessment_out -o aggregation_dir
 	python /app/merge_data_model_files.py -p $validation_out -m $assessment_out -a aggregation_dir -o data_model_export.json
-    """
+	"""
 }
 
 workflow.onComplete { 
