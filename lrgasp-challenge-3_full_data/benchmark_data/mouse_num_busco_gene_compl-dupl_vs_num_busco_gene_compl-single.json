@@ -1,0 +1,58 @@
+{
+    "_id": "OEBD00X00000NO",
+    "challenge_ids": [
+        "mouse_num_busco_gene_compl-dupl_vs_num_busco_gene_compl-single"
+    ],
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 45,
+                    "metric_y": 56,
+                    "participant_id": "fake_pipeline_1"
+                },
+                {
+                    "metric_x": 70,
+                    "metric_y": 22,
+                    "participant_id": "fake_pipeline_2"
+                },
+                {
+                    "metric_x": 42,
+                    "metric_y": 30,
+                    "participant_id": "fake_pipeline_3"
+                },
+                {
+                    "metric_x": 22,
+                    "metric_y": 4,
+                    "participant_id": "fake_pipeline_4"
+                },
+                {
+                    "metric_x": 1,
+                    "metric_y": 30,
+                    "participant_id": "fake_pipeline_5"
+                },
+                {
+                    "metric_x": 14,
+                    "metric_y": 56,
+                    "participant_id": "fake_pipeline_6"
+                },
+                {
+                    "metric_x": 34,
+                    "metric_y": 3,
+                    "participant_id": "fake_pipeline_7"
+                },
+                {
+                    "metric_x": 21,
+                    "metric_y": 5,
+                    "participant_id": "fake_pipeline_8"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "busco_gene_compl_dupl",
+                "y_axis": "busco_gene_compl_single"
+            }
+        }
+    },
+    "type": "aggregation"
+}
