@@ -1,1 +1,1 @@
-# lrgasp-challenge-3_benchmarking_workflow
+# lrgasp challenge 3 benchmarking workflow

@@ -36,15 +36,22 @@ git_tag="$(jq -r '.arguments[] | select(.name=="nextflow_repo_tag") | .value' "$
 git clone -n "${git_repo}" "${repodir}"
 cd "${repodir}" && git checkout "${git_tag}"
 
-mkdir -p "${repodir}"/public_ref/busco_data/lineages
+cd "${repodir}"/lrgasp-challenge-3_full_data/public_ref/
+
+mkdir busco_data && cd busco_data && mkdir lineages && cd lineages
 
 # download the file from https://busco-data.ezlab.org/v5/data/lineages/eutheria_odb10.2021-02-19.tar.gz to ${repodir}/public_ref/
-wget -P ${repodir}/public_ref/busco_data/lineages https://busco-data.ezlab.org/v5/data/lineages/eutheria_odb10.2021-02-19.tar.gz
-# extract the tar.gz file
-tar -xvf ${repodir}/public_ref/eutheria_odb10.2021-02-19.tar.gz -C ${repodir}/public_ref/lineages/
-# download https://lrgasp.s3.amazonaws.com/lrgasp_grcm39_sirvs.fasta to ${repodir}/public_ref/
-wget -P ${repodir}/public_ref/ https://lrgasp.s3.amazonaws.com/lrgasp_grcm39_sirvs.fasta
+wget https://busco-data.ezlab.org/v5/data/lineages/eutheria_odb10.2021-02-19.tar.gz
+# extract the tar.gz file to ${repodir}/public_ref/busco_data/lineages/eutheria_odb10.2021-02-19
+tar -xvzf eutheria_odb10.2021-02-19.tar.gz
+# remove the tar.gz file
+rm eutheria_odb10.2021-02-19.tar.gz
 
+cd .. && cd ..
+# download https://lrgasp.s3.amazonaws.com/lrgasp_grcm39_sirvs.fasta using wget
+wget https://lrgasp.s3.amazonaws.com/lrgasp_grcm39_sirvs.fasta
+
+cd "${repodir}" 
 # Then, remove remnants of previous materialization
 rm -rf "${datasetsdir}"
 # And last, move the data directory

@@ -1,9 +1,9 @@
 #!/bin/sh
 
 git_repo=https://github.com/TianYuan-Liu/lrgasp-challenge-3_benchmarking_docker.git
-git_tag=b77dcacbcdca941c12270627dcefd9356dd1654a
+git_tag=9e7012a909c09fca90b5d41c75131538301fca27
 
-docker_tag=0.3.0
+docker_tag=0.2.0
 
 set -e
 
@@ -37,5 +37,5 @@ git clone -n "${git_repo}" "${repodir}"
 cd "${repodir}" && git checkout "${git_tag}"
 
 # Build the container images from the docker recipes
-./build.sh "${docker_tag}"
+sudo bash build.sh "${docker_tag}"
 
