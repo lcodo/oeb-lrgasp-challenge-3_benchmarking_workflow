@@ -55,7 +55,7 @@ if (params.help) {
 input_file = file(params.input)
 ref_dir = file(params.public_ref_dir, type: 'dir' )
 participant_id = params.participant_id
-gold_standards_dir = file(params.goldstandard_dir)
+gold_standard_dir = file(params.goldstandard_dir)
 challenges_ids = params.challenges_ids
 benchmark_data = Channel.fromPath(params.assess_dir, type: 'dir' )
 community_id = params.community_id
