@@ -89,7 +89,7 @@ process validation {
 
     script:
     """
-    python /app/validation.py -i $input_file  -com $community_id -c $challenges_ids -p $participant_id -r $ref_dir -o validation.json --coverage $gold_standard_dir
+    python /app/validation.py -i $input_file  -com $community_id -c $challenges_ids -p $participant_id -r $ref_dir --out_path validation.json --coverage $gold_standard_dir
     """
 }
 
