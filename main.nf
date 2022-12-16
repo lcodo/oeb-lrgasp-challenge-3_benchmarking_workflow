@@ -39,8 +39,8 @@ if (params.help) {
          =========================================
          input file: ${params.input}
          community id: ${params.community_id}
-         gold standard: ${params.public_ref_dir}
-         public reference directory: ${params.goldstandard_dir}
+         gold standard: ${params.goldstandard_dir}
+         public reference directory: ${params.public_ref_dir}
          participant id: ${params.participant_id}
          challenges ids: ${params.challenges_ids}
          assess directory: ${params.assess_dir}
