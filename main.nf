@@ -89,7 +89,7 @@ process validation {
 
     script:
     """
-    python /app/validation.py -i $input_file  -com $community_id -c $challenges_ids -p $participant_id -r $ref_dir --out_path validation.json --coverage $gold_standard_dir
+    python /app/validation.py -i $input_file  -com $community_id -c $challenges_ids -p $participant_id -r $ref_dir -o validation.json --coverage $gold_standard_dir
     """
 }
 
@@ -116,7 +116,7 @@ process compute_metrics {
 
 	"""
 	source activate sqanti_env
-	python /app/sqanti3_lrgasp.challenge3.py $input_file $ref_dir $challenges_ids -c $gold_standard_dir --output assessment.json --com $community_id --participant_id $participant_id
+	python /app/sqanti3_lrgasp.challenge3.py $input_file $ref_dir $challenges_ids -c $gold_standard_dir --out_path assessment.json --com $community_id --participant_id $participant_id
     """
 }
 
