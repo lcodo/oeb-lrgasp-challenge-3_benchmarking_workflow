@@ -140,7 +140,7 @@ process consolidation {
 
     """
     cp -Lpr $benchmark_data augmented_benchmark_data
-	python /app/manage_assessment_data.py -b augmented_benchmark_data -p $assessment_out -o aggregation_dir --offline
+	python /app/manage_assessment_data.py -b augmented_benchmark_data -p $assessment_out -o aggregation_dir
 	python /app/merge_data_model_files.py -p $validation_out -m $assessment_out -a aggregation_dir -o data_model_export.json
     """
 }
