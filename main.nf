@@ -99,7 +99,7 @@ process compute_metrics {
     publishDir "${assessment_file.parent}", saveAs: { filename -> assessment_file.name }, mode: 'copy'
 
     input:
-    val file_validated from EXIT_STAT
+    val file_validated from EXIT_STAT_VAL
     file input_file
     val challenges_ids
     path gold_standard_dir
