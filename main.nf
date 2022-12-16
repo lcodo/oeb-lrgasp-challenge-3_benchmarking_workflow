@@ -63,8 +63,9 @@ community_id = params.community_id
 // output
 validation_file = file(params.validation_result)
 assessment_file = file(params.assessment_results)
+data_model_export_dir = file(params.data_model_export_dir)
 aggregation_dir = Channel.fromPath(params.outdir, type: 'dir')
-augmented_benchmark_data = file(params.data_model_export_dir)
+augmented_benchmark_data = file(params.augmented_assess_dir, type: 'dir')
 
 // other
 other_dir = file(params.otherdir, type: 'dir' )
