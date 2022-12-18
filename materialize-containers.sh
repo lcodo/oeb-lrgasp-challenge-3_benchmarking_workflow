@@ -37,5 +37,5 @@ git clone -n "${git_repo}" "${repodir}"
 cd "${repodir}" && git checkout "${git_tag}"
 
 # Build the container images from the docker recipes
-sudo bash build.sh "${docker_tag}"
+bash build.sh "${docker_tag}"
 
