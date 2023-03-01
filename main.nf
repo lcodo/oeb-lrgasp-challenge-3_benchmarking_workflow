@@ -56,7 +56,13 @@ input_file = file(params.input)
 ref_dir = file(params.public_ref_dir, type: 'dir' )
 participant_id = params.participant_id
 gold_standard_dir = file(params.goldstandard_dir)
-challenges_ids = params.challenges_ids
+if(params.challenges_ids instanceof List) {
+	challenges_ids = params.challenges_ids.join(" ")
+} else {
+	challenges_ids = params.challenges_ids
+	challenges_ids.replace("\"", "")
+}
+println("Es la cadena de caracteres ${challenges_ids}")
 benchmark_data = Channel.fromPath(params.assess_dir, type: 'dir' )
 community_id = params.community_id
 
@@ -90,7 +96,7 @@ process validation {
 
     script:
     """
-    python /app/validation.py -i $input_file  -com $community_id -c $challenges_ids -p $participant_id -r $ref_dir -o validation.json --coverage $gold_standard_dir
+    python /app/validation.py -i "$input_file"  -com "$community_id" -c "$challenges_ids" -p "$participant_id" -r "$ref_dir" -o validation.json --coverage "$gold_standard_dir"
     """
 }
 
@@ -117,7 +123,7 @@ process compute_metrics {
 
 	"""
 	source activate sqanti_env
-	python /app/sqanti3_lrgasp.challenge3.py $input_file $ref_dir $challenges_ids -c $gold_standard_dir --out_path assessment.json --com $community_id --participant_id $participant_id
+	python /app/sqanti3_lrgasp.challenge3.py "$input_file" "$ref_dir" "$challenges_ids" -c "$gold_standard_dir" --out_path assessment.json --com "$community_id" --participant_id "$participant_id"
     """
 }
 
@@ -139,9 +145,9 @@ process consolidation {
 	path 'data_model_export.json'
 
 	"""
-	cp -Lpr $benchmark_data augmented_benchmark_data
-	python /app/manage_assessment_data.py -b augmented_benchmark_data -p $assessment_out -o aggregation_dir
-	python /app/merge_data_model_files.py -p $validation_out -m $assessment_out -a aggregation_dir -o data_model_export.json
+	cp -Lpr "$benchmark_data" augmented_benchmark_data
+	python /app/manage_assessment_data.py -b augmented_benchmark_data -p "$assessment_out" -o aggregation_dir
+	python /app/merge_data_model_files.py -p $validation_out -m "$assessment_out" -a aggregation_dir -o data_model_export.json
 	"""
 }
 
