@@ -1,0 +1,104 @@
+{
+    "_id": "OEBE0100000000",
+    "challenge_ids": [
+        "mouse_avg_len"
+    ],
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 218462,
+                    "metric_y": 719.39,
+                    "participant_id": "illumina_1"
+                },
+                {
+                    "metric_x": 23487,
+                    "metric_y": 1387.79,
+                    "participant_id": "ONT_1"
+                },
+                {
+                    "metric_x": 92772,
+                    "metric_y": 1356.99,
+                    "participant_id": "ONT_10"
+                },
+                {
+                    "metric_x": 44031,
+                    "metric_y": 2893.24,
+                    "participant_id": "ONT_11"
+                },
+                {
+                    "metric_x": 21318,
+                    "metric_y": 1793.35,
+                    "participant_id": "ONT_2"
+                },
+                {
+                    "metric_x": 21900,
+                    "metric_y": 2425.34,
+                    "participant_id": "ONT_3"
+                },
+                {
+                    "metric_x": 27031,
+                    "metric_y": 2490.89,
+                    "participant_id": "ONT_4"
+                },
+                {
+                    "metric_x": 85424,
+                    "metric_y": 2498.89,
+                    "participant_id": "ONT_5"
+                },
+                {
+                    "metric_x": 107530,
+                    "metric_y": 2378.76,
+                    "participant_id": "ONT_6"
+                },
+                {
+                    "metric_x": 75779,
+                    "metric_y": 1786.53,
+                    "participant_id": "ONT_7"
+                },
+                {
+                    "metric_x": 151439,
+                    "metric_y": 1197.65,
+                    "participant_id": "ONT_8"
+                },
+                {
+                    "metric_x": 29400,
+                    "metric_y": 2791.59,
+                    "participant_id": "ONT_9"
+                },
+                {
+                    "metric_x": 15038,
+                    "metric_y": 1794.32,
+                    "participant_id": "PB_1"
+                },
+                {
+                    "metric_x": 27208,
+                    "metric_y": 3377.52,
+                    "participant_id": "PB_2"
+                },
+                {
+                    "metric_x": 28246,
+                    "metric_y": 1937.77,
+                    "participant_id": "PB_3"
+                },
+                {
+                    "metric_x": 52902,
+                    "metric_y": 3771.12,
+                    "participant_id": "PB_4"
+                },
+                {
+                    "metric_x": 171115,
+                    "metric_y": 1121.08,
+                    "participant_id": "PB_5"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Number of transcripts",
+                "y_axis": "Average length of transcripts"
+            }
+        }
+    },
+    "type": "aggregation"
+}
+

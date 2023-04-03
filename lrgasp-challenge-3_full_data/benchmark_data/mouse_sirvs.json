@@ -1,5 +1,5 @@
 {
-    "_id": "OEBD00X00000NO",
+    "_id": "OEBE0100000000",
     "challenge_ids": [
         "mouse_sirvs"
     ],
@@ -7,50 +7,95 @@
         "inline_data": {
             "challenge_participants": [
                 {
-                    "metric_x": 0.6521739130434783,
-                    "metric_y": 0.3651685393258427,
-                    "participant_id": "fake_pipeline_1"
+                    "metric_x": 0.27,
+                    "metric_y": 0.09,
+                    "participant_id": "illumina_1"
                 },
                 {
-                    "metric_x": 0.3010033444816054,
-                    "metric_y": 0.5232558139534884,
-                    "participant_id": "fake_pipeline_2"
+                    "metric_x": 0.37,
+                    "metric_y": 0.57,
+                    "participant_id": "ONT_1"
                 },
                 {
-                    "metric_x": 0.6254180602006689,
-                    "metric_y": 0.4012875536480687,
-                    "participant_id": "fake_pipeline_3"
+                    "metric_x": 0.27,
+                    "metric_y": 0.12,
+                    "participant_id": "ONT_10"
                 },
                 {
-                    "metric_x": 0.4214046822742475,
-                    "metric_y": 0.23728813559322035,
-                    "participant_id": "fake_pipeline_4"
+                    "metric_x": 0.26,
+                    "metric_y": 0.39,
+                    "participant_id": "ONT_11"
                 },
                 {
-                    "metric_x": 0.08361204013377926,
-                    "metric_y": 0.3048780487804878,
-                    "participant_id": "fake_pipeline_5"
+                    "metric_x": 0.19,
+                    "metric_y": 0.67,
+                    "participant_id": "ONT_2"
                 },
                 {
-                    "metric_x": 0.14715719063545152,
-                    "metric_y": 0.6666666666666666,
-                    "participant_id": "fake_pipeline_6"
+                    "metric_x": 0.14,
+                    "metric_y": 0.86,
+                    "participant_id": "ONT_3"
                 },
                 {
-                    "metric_x": 0.34782608695652173,
-                    "metric_y": 0.08666666666666667,
-                    "participant_id": "fake_pipeline_7"
+                    "metric_x": 0.26,
+                    "metric_y": 0.79,
+                    "participant_id": "ONT_4"
                 },
                 {
-                    "metric_x": 0.5117056856187291,
-                    "metric_y": 0.5483870967741935,
-                    "participant_id": "fake_pipeline_8"
+                    "metric_x": 0.58,
+                    "metric_y": 0.2,
+                    "participant_id": "ONT_5"
+                },
+                {
+                    "metric_x": 0.62,
+                    "metric_y": 0.19,
+                    "participant_id": "ONT_6"
+                },
+                {
+                    "metric_x": 0.24,
+                    "metric_y": 0.28,
+                    "participant_id": "ONT_7"
+                },
+                {
+                    "metric_x": 0.26,
+                    "metric_y": 0.11,
+                    "participant_id": "ONT_8"
+                },
+                {
+                    "metric_x": 0.35,
+                    "metric_y": 0.47,
+                    "participant_id": "ONT_9"
+                },
+                {
+                    "metric_x": 0.18,
+                    "metric_y": 0.94,
+                    "participant_id": "PB_1"
+                },
+                {
+                    "metric_x": 0.15,
+                    "metric_y": 1,
+                    "participant_id": "PB_2"
+                },
+                {
+                    "metric_x": 0.37,
+                    "metric_y": 0.62,
+                    "participant_id": "PB_3"
+                },
+                {
+                    "metric_x": 0.31,
+                    "metric_y": 0.55,
+                    "participant_id": "PB_4"
+                },
+                {
+                    "metric_x": 0.24,
+                    "metric_y": 0.14,
+                    "participant_id": "PB_5"
                 }
             ],
             "visualization": {
                 "type": "2D-plot",
-                "x_axis": "TPR",
-                "y_axis": "precision"
+                "x_axis": "Recall",
+                "y_axis": "Precision"
             }
         }
     },

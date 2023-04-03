@@ -1,0 +1,105 @@
+{
+    "_id": "OEBE0100000000",
+    "challenge_ids": [
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage"
+    ],
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 52.85,
+                    "metric_y": 55.57,
+                    "participant_id": "illumina_1"
+                },
+                {
+                    "metric_x": 93.83,
+                    "metric_y": 99.81,
+                    "participant_id": "ONT_1"
+                },
+                {
+                    "metric_x": 53.58,
+                    "metric_y": 56.08,
+                    "participant_id": "ONT_10"
+                },
+                {
+                    "metric_x": 93.75,
+                    "metric_y": 99.03,
+                    "participant_id": "ONT_11"
+                },
+                {
+                    "metric_x": 90.83,
+                    "metric_y": 96.82,
+                    "participant_id": "ONT_2"
+                },
+                {
+                    "metric_x": 98.14,
+                    "metric_y": 99.89,
+                    "participant_id": "ONT_3"
+                },
+                {
+                    "metric_x": 97.74,
+                    "metric_y": 99.89,
+                    "participant_id": "ONT_4"
+                },
+                {
+                    "metric_x": 59.49,
+                    "metric_y": 67.89,
+                    "participant_id": "ONT_5"
+                },
+                {
+                    "metric_x": 56.43,
+                    "metric_y": 65.64,
+                    "participant_id": "ONT_6"
+                },
+                {
+                    "metric_x": 77.24,
+                    "metric_y": 94.35,
+                    "participant_id": "ONT_7"
+                },
+                {
+                    "metric_x": 52.8,
+                    "metric_y": 55.49,
+                    "participant_id": "ONT_8"
+                },
+                {
+                    "metric_x": 96.23,
+                    "metric_y": 99.35,
+                    "participant_id": "ONT_9"
+                },
+                {
+                    "metric_x": 98.79,
+                    "metric_y": 99.85,
+                    "participant_id": "PB_1"
+                },
+                {
+                    "metric_x": 98.05,
+                    "metric_y": 99.81,
+                    "participant_id": "PB_2"
+                },
+                {
+                    "metric_x": 95.71,
+                    "metric_y": 98.84,
+                    "participant_id": "PB_3"
+                },
+                {
+                    "metric_x": 92.45,
+                    "metric_y": 98.11,
+                    "participant_id": "PB_4"
+                },
+                {
+                    "metric_x": 52.72,
+                    "metric_y": 55.42,
+                    "participant_id": "PB_5"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Splice Junctions with short-read coverage",
+                "y_axis": "% canonical Splice Junctions"
+            }
+        }
+    },
+    "type": "aggregation"
+}
+
+

@@ -1,5 +1,5 @@
 {
-    "_id": "OEBD00X00000NO",
+    "_id": "OEBE0100000000",
     "challenge_ids": [
         "mouse_num_iso"
     ],
@@ -7,53 +7,99 @@
         "inline_data": {
             "challenge_participants": [
                 {
-                    "metric_x": 48888,
-                    "metric_y": 50000,
-                    "participant_id": "fake_pipeline_1"
+                    "metric_x": 218462,
+                    "metric_y": 191952,
+                    "participant_id": "illumina_1"
                 },
                 {
-                    "metric_x": 38888,
-                    "metric_y": 40000,
-                    "participant_id": "fake_pipeline_2"
+                    "metric_x": 23487,
+                    "metric_y": 23486,
+                    "participant_id": "ONT_1"
                 },
                 {
-                    "metric_x": 28888,
-                    "metric_y": 30000,
-                    "participant_id": "fake_pipeline_3"
+                    "metric_x": 92772,
+                    "metric_y": 91543,
+                    "participant_id": "ONT_10"
                 },
                 {
-                    "metric_x": 18888,
-                    "metric_y": 20000,
-                    "participant_id": "fake_pipeline_4"
+                    "metric_x": 44031,
+                    "metric_y": 44022,
+                    "participant_id": "ONT_11"
                 },
                 {
-                    "metric_x": 9999,
-                    "metric_y": 10000,
-                    "participant_id": "fake_pipeline_5"
+                    "metric_x": 21318,
+                    "metric_y": 21288,
+                    "participant_id": "ONT_2"
                 },
                 {
-                    "metric_x": 58888,
-                    "metric_y": 60000,
-                    "participant_id": "fake_pipeline_6"
+                    "metric_x": 21900,
+                    "metric_y": 21899,
+                    "participant_id": "ONT_3"
                 },
                 {
-                    "metric_x": 36666,
-                    "metric_y": 38888,
-                    "participant_id": "fake_pipeline_7"
+                    "metric_x": 27031,
+                    "metric_y": 27028,
+                    "participant_id": "ONT_4"
                 },
                 {
-                    "metric_x": 23333,
-                    "metric_y": 33333,
-                    "participant_id": "fake_pipeline_8"
+                    "metric_x": 85424,
+                    "metric_y": 85319,
+                    "participant_id": "ONT_5"
+                },
+                {
+                    "metric_x": 107530,
+                    "metric_y": 107348,
+                    "participant_id": "ONT_6"
+                },
+                {
+                    "metric_x": 75779,
+                    "metric_y": 75034,
+                    "participant_id": "ONT_7"
+                },
+                {
+                    "metric_x": 151439,
+                    "metric_y": 144419,
+                    "participant_id": "ONT_8"
+                },
+                {
+                    "metric_x": 29400,
+                    "metric_y": 29396,
+                    "participant_id": "ONT_9"
+                },
+                {
+                    "metric_x": 15038,
+                    "metric_y": 0,
+                    "participant_id": "PB_1"
+                },
+                {
+                    "metric_x": 27208,
+                    "metric_y": 27202,
+                    "participant_id": "PB_2"
+                },
+                {
+                    "metric_x": 28246,
+                    "metric_y": 28243,
+                    "participant_id": "PB_3"
+                },
+                {
+                    "metric_x": 52902,
+                    "metric_y": 52897,
+                    "participant_id": "PB_4"
+                },
+                {
+                    "metric_x": 171115,
+                    "metric_y": 163852,
+                    "participant_id": "PB_5"
                 }
             ],
             "visualization": {
                 "type": "2D-plot",
-                "x_axis": "num_isoforms",
-                "y_axis": "map_isoforms"
+                "x_axis": "Number of transcripts",
+                "y_axis": "Number of mapping transcripts"
             }
         }
     },
     "type": "aggregation"
 }
+
 
