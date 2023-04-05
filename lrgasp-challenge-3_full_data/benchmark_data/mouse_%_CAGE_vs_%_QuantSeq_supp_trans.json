@@ -1,7 +1,7 @@
 {
     "_id": "OEBE0100000000",
     "challenge_ids": [
-        "mouse_%_CAGE_supp_trans_vs_%_QuantSeq_supp_trans"
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans"
     ],
     "datalink": {
         "inline_data": {
