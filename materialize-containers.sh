@@ -38,4 +38,3 @@ cd "${repodir}" && git checkout "${git_tag}"
 
 # Build the container images from the docker recipes
 bash build.sh "${docker_tag}"
-

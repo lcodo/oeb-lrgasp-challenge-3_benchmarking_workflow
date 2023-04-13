@@ -52,7 +52,7 @@
         },
         {
             "name": "challenges_ids",
-            "value": "mouse_len mouse_%_BUSCO_gene_found_vs_complete mouse_%_canonical_SJ_vs_%_SJ_SR_coverage mouse_trans mouse_%_trans_with_intra-priming_vs_rt_switching mouse_%_CAGE_vs_%_QuantSeq_supp_trans mouse_num_trans_vs_with_coding_potential mouse_sirvs"
+            "value": "mouse_len mouse_%_BUSCO_gene_found_vs_complete mouse_%_canonical_SJ_vs_%_SJ_SR_coverage mouse_trans mouse_%_trans_with_intra-priming_vs_rt_switching mouse_%_CAGE_vs_%_QuantSeq_supp_trans mouse_num_trans_vs_with_coding_potential mouse_sirvs mouse_FSM mouse_ISM mouse_NIC mouse_NNC mouse_Antisense mouse_Fusion mouse_GenicGenomic mouse_GenicIntron mouse_Intergenic"
         },
         {
             "name": "participant_id",

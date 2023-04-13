@@ -24,7 +24,6 @@ mv lrgasp-challenge-3_benchmarking_workflow LRGASP
 ```
 cd LRGASP
 bash ./materialize-data.sh
-bash ./materialize-containers.sh
 ```
 4. Run the tests from LRGASP example
 ```

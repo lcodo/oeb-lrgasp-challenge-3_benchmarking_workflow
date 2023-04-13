@@ -38,20 +38,25 @@ cd "${repodir}" && git checkout "${git_tag}"
 
 cd "${repodir}"/lrgasp-challenge-3_full_data/public_ref/
 
+# gunzip the annotation file
+gunzip lrgasp_gencode_vM27_sirvs.gtf.gz
+
 mkdir busco_data && cd busco_data && mkdir lineages && cd lineages
 
 # download the file from https://busco-data.ezlab.org/v5/data/lineages/eutheria_odb10.2021-02-19.tar.gz to ${repodir}/public_ref/
 wget https://busco-data.ezlab.org/v5/data/lineages/eutheria_odb10.2021-02-19.tar.gz
+
 # extract the tar.gz file to ${repodir}/public_ref/busco_data/lineages/eutheria_odb10.2021-02-19
 tar -xvzf eutheria_odb10.2021-02-19.tar.gz
+
 # remove the tar.gz file
 rm eutheria_odb10.2021-02-19.tar.gz
-
 cd .. && cd ..
+
 # download https://lrgasp.s3.amazonaws.com/lrgasp_grcm39_sirvs.fasta using wget
 wget https://lrgasp.s3.amazonaws.com/lrgasp_grcm39_sirvs.fasta
+cd "${repodir}"
 
-cd "${repodir}" 
 # Then, remove remnants of previous materialization
 rm -rf "${datasetsdir}"
 # And last, move the data directory

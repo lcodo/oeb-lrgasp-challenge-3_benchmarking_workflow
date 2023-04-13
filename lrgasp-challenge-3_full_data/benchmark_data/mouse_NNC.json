@@ -1,0 +1,101 @@
+{
+  "_id": "OEBE0100000000",
+  "challenge_ids": "mouse_NNC",
+  "datalink": {
+    "inline_data": {
+      "challenge_participants": [
+        {
+          "metric_x": 6346,
+          "metric_y": 3.2996,
+          "participant_id": "illumina_1"
+        },
+        {
+          "metric_x": 3272,
+          "metric_y": 13.8997,
+          "participant_id": "ONT_1"
+        },
+        {
+          "metric_x": 6449,
+          "metric_y": 7.0225,
+          "participant_id": "ONT_10"
+        },
+        {
+          "metric_x": 11992,
+          "metric_y": 27.2057,
+          "participant_id": "ONT_11"
+        },
+        {
+          "metric_x": 3790,
+          "metric_y": 17.7834,
+          "participant_id": "ONT_2"
+        },
+        {
+          "metric_x": 2474,
+          "metric_y": 11.2901,
+          "participant_id": "ONT_3"
+        },
+        {
+          "metric_x": 4044,
+          "metric_y": 14.9468,
+          "participant_id": "ONT_4"
+        },
+        {
+          "metric_x": 30706,
+          "metric_y": 35.8213,
+          "participant_id": "ONT_5"
+        },
+        {
+          "metric_x": 37889,
+          "metric_y": 35.1371,
+          "participant_id": "ONT_6"
+        },
+        {
+          "metric_x": 20713,
+          "metric_y": 27.5784,
+          "participant_id": "ONT_7"
+        },
+        {
+          "metric_x": 9920,
+          "metric_y": 6.8531,
+          "participant_id": "ONT_8"
+        },
+        {
+          "metric_x": 6833,
+          "metric_y": 23.1957,
+          "participant_id": "ONT_9"
+        },
+        {
+          "metric_x": 1380,
+          "metric_y": 9.167,
+          "participant_id": "PB_1"
+        },
+        {
+          "metric_x": 3170,
+          "metric_y": 11.648,
+          "participant_id": "PB_2"
+        },
+        {
+          "metric_x": 6348,
+          "metric_y": 22.4366,
+          "participant_id": "PB_3"
+        },
+        {
+          "metric_x": 13884,
+          "metric_y": 26.2239,
+          "participant_id": "PB_4"
+        },
+        {
+          "metric_x": 10028,
+          "metric_y": 6.1103,
+          "participant_id": "PB_5"
+        }
+      ],
+      "visualization": {
+        "type": "2D-plot",
+        "x_axis": "Absolute value",
+        "y_axis": "Relative value (%)"
+      }
+    }
+  },
+  "type": "aggregation"
+}

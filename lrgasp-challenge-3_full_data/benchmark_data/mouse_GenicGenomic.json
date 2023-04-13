@@ -1,0 +1,101 @@
+{
+  "_id": "OEBE0100000000",
+  "challenge_ids": "mouse_GenicGenomic",
+  "datalink": {
+    "inline_data": {
+      "challenge_participants": [
+        {
+          "metric_x": 3935,
+          "metric_y": 2.046,
+          "participant_id": "illumina_1"
+        },
+        {
+          "metric_x": 390,
+          "metric_y": 1.6568,
+          "participant_id": "ONT_1"
+        },
+        {
+          "metric_x": 2741,
+          "metric_y": 2.9848,
+          "participant_id": "ONT_10"
+        },
+        {
+          "metric_x": 284,
+          "metric_y": 0.6443,
+          "participant_id": "ONT_11"
+        },
+        {
+          "metric_x": 385,
+          "metric_y": 1.8065,
+          "participant_id": "ONT_2"
+        },
+        {
+          "metric_x": 76,
+          "metric_y": 0.3468,
+          "participant_id": "ONT_3"
+        },
+        {
+          "metric_x": 93,
+          "metric_y": 0.3437,
+          "participant_id": "ONT_4"
+        },
+        {
+          "metric_x": 1978,
+          "metric_y": 2.3075,
+          "participant_id": "ONT_5"
+        },
+        {
+          "metric_x": 2524,
+          "metric_y": 2.3407,
+          "participant_id": "ONT_6"
+        },
+        {
+          "metric_x": 1750,
+          "metric_y": 2.33,
+          "participant_id": "ONT_7"
+        },
+        {
+          "metric_x": 3539,
+          "metric_y": 2.4449,
+          "participant_id": "ONT_8"
+        },
+        {
+          "metric_x": 308,
+          "metric_y": 1.0456,
+          "participant_id": "ONT_9"
+        },
+        {
+          "metric_x": 73,
+          "metric_y": 0.4849,
+          "participant_id": "PB_1"
+        },
+        {
+          "metric_x": 97,
+          "metric_y": 0.3564,
+          "participant_id": "PB_2"
+        },
+        {
+          "metric_x": 258,
+          "metric_y": 0.9119,
+          "participant_id": "PB_3"
+        },
+        {
+          "metric_x": 377,
+          "metric_y": 0.7121,
+          "participant_id": "PB_4"
+        },
+        {
+          "metric_x": 3814,
+          "metric_y": 2.324,
+          "participant_id": "PB_5"
+        }
+      ],
+      "visualization": {
+        "type": "2D-plot",
+        "x_axis": "Absolute value",
+        "y_axis": "Relative value (%)"
+      }
+    }
+  },
+  "type": "aggregation"
+}
