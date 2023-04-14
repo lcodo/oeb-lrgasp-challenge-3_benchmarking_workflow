@@ -1,104 +1,101 @@
 {
-    "_id": "OEBE0100000000",
-    "challenge_ids": [
-        "mouse_%_BUSCO_gene_found_vs_complete"
-    ],
-    "datalink": {
-        "inline_data": {
-            "challenge_participants": [
-                {
-                    "metric_x": 70.55,
-                    "metric_y": 66.28,
-                    "participant_id": "illumina_1"
-                },
-                {
-                    "metric_x": 45.55,
-                    "metric_y": 42.23,
-                    "participant_id": "ONT_1"
-                },
-                {
-                    "metric_x": 70.06,
-                    "metric_y": 66.63,
-                    "participant_id": "ONT_10"
-                },
-                {
-                    "metric_x": 72.63,
-                    "metric_y": 70.91,
-                    "participant_id": "ONT_11"
-                },
-                {
-                    "metric_x": 47.46,
-                    "metric_y": 44.82,
-                    "participant_id": "ONT_2"
-                },
-                {
-                    "metric_x": 56.48,
-                    "metric_y": 54.94,
-                    "participant_id": "ONT_3"
-                },
-                {
-                    "metric_x": 66.12,
-                    "metric_y": 64.16,
-                    "participant_id": "ONT_4"
-                },
-                {
-                    "metric_x": 68.72,
-                    "metric_y": 65.44,
-                    "participant_id": "ONT_5"
-                },
-                {
-                    "metric_x": 70.74,
-                    "metric_y": 67.56,
-                    "participant_id": "ONT_6"
-                },
-                {
-                    "metric_x": 70.24,
-                    "metric_y": 67.56,
-                    "participant_id": "ONT_7"
-                },
-                {
-                    "metric_x": 70.63,
-                    "metric_y": 66.82,
-                    "participant_id": "ONT_8"
-                },
-                {
-                    "metric_x": 67.06,
-                    "metric_y": 65.46,
-                    "participant_id": "ONT_9"
-                },
-                {
-                    "metric_x": 45.56,
-                    "metric_y": 43.68,
-                    "participant_id": "PB_1"
-                },
-                {
-                    "metric_x": 70.5,
-                    "metric_y": 69.58,
-                    "participant_id": "PB_2"
-                },
-                {
-                    "metric_x": 53.81,
-                    "metric_y": 51.56,
-                    "participant_id": "PB_3"
-                },
-                {
-                    "metric_x": 76.17,
-                    "metric_y": 75.21,
-                    "participant_id": "PB_4"
-                },
-                {
-                    "metric_x": 70.68,
-                    "metric_y": 66.93,
-                    "participant_id": "PB_5"
-                }
-            ],
-            "visualization": {
-                "type": "2D-plot",
-                "x_axis": "% BUSCO gene found (complete + fragment)",
-                "y_axis": "% BUSCO gene complete"
-            }
+  "_id": "OEBE0100000000",
+  "challenge_ids": "mouse_%_BUSCO_gene_found_vs_complete",
+  "datalink": {
+    "inline_data": {
+      "challenge_participants": [
+        {
+          "metric_x": 70.55,
+          "metric_y": 66.28,
+          "participant_id": "cDNA_Illumina_SO_rS"
+        },
+        {
+          "metric_x": 45.55,
+          "metric_y": 42.23,
+          "participant_id": "CapTrap_ONT_LO_Ba"
+        },
+        {
+          "metric_x": 70.06,
+          "metric_y": 66.63,
+          "participant_id": "dRNA_ONT_LS_rS"
+        },
+        {
+          "metric_x": 72.63,
+          "metric_y": 70.91,
+          "participant_id": "R2C2_ONT_LO_IQ"
+        },
+        {
+          "metric_x": 47.46,
+          "metric_y": 44.82,
+          "participant_id": "cDNA_ONT_LO_Ba"
+        },
+        {
+          "metric_x": 56.48,
+          "metric_y": 54.94,
+          "participant_id": "dRNA_ONT_LO_Ba"
+        },
+        {
+          "metric_x": 66.12,
+          "metric_y": 64.16,
+          "participant_id": "R2C2_ONT_LO_Ba"
+        },
+        {
+          "metric_x": 68.72,
+          "metric_y": 65.44,
+          "participant_id": "cDNA_ONT_LO_Bl"
+        },
+        {
+          "metric_x": 70.74,
+          "metric_y": 67.56,
+          "participant_id": "cDNA_ONT_LS_Bl"
+        },
+        {
+          "metric_x": 70.24,
+          "metric_y": 67.56,
+          "participant_id": "cDNA_ONT_LO_IQ"
+        },
+        {
+          "metric_x": 70.63,
+          "metric_y": 66.82,
+          "participant_id": "cDNA_ONT_LS_rS"
+        },
+        {
+          "metric_x": 67.06,
+          "metric_y": 65.46,
+          "participant_id": "dRNA_ONT_LO_IQ"
+        },
+        {
+          "metric_x": 45.56,
+          "metric_y": 43.68,
+          "participant_id": "CapTrap_PacBio_LO_Ba"
+        },
+        {
+          "metric_x": 70.5,
+          "metric_y": 69.58,
+          "participant_id": "cDNA_PacBio_LO_Ba"
+        },
+        {
+          "metric_x": 53.81,
+          "metric_y": 51.56,
+          "participant_id": "CapTrap_PacBio_LO_IQ"
+        },
+        {
+          "metric_x": 76.17,
+          "metric_y": 75.21,
+          "participant_id": "cDNA_PacBio_LO_IQ"
+        },
+        {
+          "metric_x": 70.68,
+          "metric_y": 66.93,
+          "participant_id": "cDNA_PacBio_LS_rS"
         }
-    },
-    "type": "aggregation"
+      ],
+      "visualization": {
+        "type": "2D-plot",
+        "x_axis": "% BUSCO gene found (complete + fragment)",
+        "y_axis": "% BUSCO gene complete"
+      }
+    }
+  },
+  "type": "aggregation"
 }
-

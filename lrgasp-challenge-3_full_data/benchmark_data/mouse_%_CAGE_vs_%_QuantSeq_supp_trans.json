@@ -1,105 +1,101 @@
 {
-    "_id": "OEBE0100000000",
-    "challenge_ids": [
-        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans"
-    ],
-    "datalink": {
-        "inline_data": {
-            "challenge_participants": [
-                {
-                    "metric_x": 6.519727,
-                    "metric_y": 7.539361,
-                    "participant_id": "illumina_1"
-                },
-                {
-                    "metric_x": 51.805438,
-                    "metric_y": 52.128292,
-                    "participant_id": "ONT_1"
-                },
-                {
-                    "metric_x": 13.37101,
-                    "metric_y": 16.212037,
-                    "participant_id": "ONT_10"
-                },
-                {
-                    "metric_x": 30.477098,
-                    "metric_y": 58.025364,
-                    "participant_id": "ONT_11"
-                },
-                {
-                    "metric_x": 52.679242,
-                    "metric_y": 56.878754,
-                    "participant_id": "ONT_2"
-                },
-                {
-                    "metric_x": 46.314973,
-                    "metric_y": 79.41861,
-                    "participant_id": "ONT_3"
-                },
-                {
-                    "metric_x": 68.931106,
-                    "metric_y": 63.475754,
-                    "participant_id": "ONT_4"
-                },
-                {
-                    "metric_x": 48.064629,
-                    "metric_y": 56.489734,
-                    "participant_id": "ONT_5"
-                },
-                {
-                    "metric_x": 44.899473,
-                    "metric_y": 52.897099,
-                    "participant_id": "ONT_6"
-                },
-                {
-                    "metric_x": 22.449605,
-                    "metric_y": 39.930232,
-                    "participant_id": "ONT_7"
-                },
-                {
-                    "metric_x": 10.563585,
-                    "metric_y": 11.74906,
-                    "participant_id": "ONT_8"
-                },
-                {
-                    "metric_x": 36.950913,
-                    "metric_y": 65.218277,
-                    "participant_id": "ONT_9"
-                },
-                {
-                    "metric_x": 65.530756,
-                    "metric_y": 70.120898,
-                    "participant_id": "PB_1"
-                },
-                {
-                    "metric_x": 65.732133,
-                    "metric_y": 70.141466,
-                    "participant_id": "PB_2"
-                },
-                {
-                    "metric_x": 34.082635,
-                    "metric_y": 62.552575,
-                    "participant_id": "PB_3"
-                },
-                {
-                    "metric_x": 28.159943,
-                    "metric_y": 63.336733,
-                    "participant_id": "PB_4"
-                },
-                {
-                    "metric_x": 8.996021,
-                    "metric_y": 10.300578,
-                    "participant_id": "PB_5"
-                }
-            ],
-            "visualization": {
-                "type": "2D-plot",
-                "x_axis": "% Transcripts supported by CAGE",
-                "y_axis": "% Transcripts supported by Quant-seq"
-            }
+  "_id": "OEBE0100000000",
+  "challenge_ids": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans",
+  "datalink": {
+    "inline_data": {
+      "challenge_participants": [
+        {
+          "metric_x": 6.5197,
+          "metric_y": 7.5394,
+          "participant_id": "cDNA_Illumina_SO_rS"
+        },
+        {
+          "metric_x": 51.8054,
+          "metric_y": 52.1283,
+          "participant_id": "CapTrap_ONT_LO_Ba"
+        },
+        {
+          "metric_x": 13.371,
+          "metric_y": 16.212,
+          "participant_id": "dRNA_ONT_LS_rS"
+        },
+        {
+          "metric_x": 30.4771,
+          "metric_y": 58.0254,
+          "participant_id": "R2C2_ONT_LO_IQ"
+        },
+        {
+          "metric_x": 52.6792,
+          "metric_y": 56.8788,
+          "participant_id": "cDNA_ONT_LO_Ba"
+        },
+        {
+          "metric_x": 46.315,
+          "metric_y": 79.4186,
+          "participant_id": "dRNA_ONT_LO_Ba"
+        },
+        {
+          "metric_x": 68.9311,
+          "metric_y": 63.4758,
+          "participant_id": "R2C2_ONT_LO_Ba"
+        },
+        {
+          "metric_x": 48.0646,
+          "metric_y": 56.4897,
+          "participant_id": "cDNA_ONT_LO_Bl"
+        },
+        {
+          "metric_x": 44.8995,
+          "metric_y": 52.8971,
+          "participant_id": "cDNA_ONT_LS_Bl"
+        },
+        {
+          "metric_x": 22.4496,
+          "metric_y": 39.9302,
+          "participant_id": "cDNA_ONT_LO_IQ"
+        },
+        {
+          "metric_x": 10.5636,
+          "metric_y": 11.7491,
+          "participant_id": "cDNA_ONT_LS_rS"
+        },
+        {
+          "metric_x": 36.9509,
+          "metric_y": 65.2183,
+          "participant_id": "dRNA_ONT_LO_IQ"
+        },
+        {
+          "metric_x": 65.5308,
+          "metric_y": 70.1209,
+          "participant_id": "CapTrap_PacBio_LO_Ba"
+        },
+        {
+          "metric_x": 65.7321,
+          "metric_y": 70.1415,
+          "participant_id": "cDNA_PacBio_LO_Ba"
+        },
+        {
+          "metric_x": 34.0826,
+          "metric_y": 62.5526,
+          "participant_id": "CapTrap_PacBio_LO_IQ"
+        },
+        {
+          "metric_x": 28.1599,
+          "metric_y": 63.3367,
+          "participant_id": "cDNA_PacBio_LO_IQ"
+        },
+        {
+          "metric_x": 8.996,
+          "metric_y": 10.3006,
+          "participant_id": "cDNA_PacBio_LS_rS"
         }
-    },
-    "type": "aggregation"
+      ],
+      "visualization": {
+        "type": "2D-plot",
+        "x_axis": "% Transcripts supported by CAGE",
+        "y_axis": "% Transcripts supported by Quant-seq"
+      }
+    }
+  },
+  "type": "aggregation"
 }
-
-

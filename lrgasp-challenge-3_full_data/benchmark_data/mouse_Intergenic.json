@@ -7,87 +7,87 @@
         {
           "metric_x": 98269,
           "metric_y": 51.0955,
-          "participant_id": "illumina_1"
+          "participant_id": "cDNA_Illumina_SO_rS"
         },
         {
           "metric_x": 1427,
           "metric_y": 6.062,
-          "participant_id": "ONT_1"
+          "participant_id": "CapTrap_ONT_LO_Ba"
         },
         {
           "metric_x": 25250,
           "metric_y": 27.4956,
-          "participant_id": "ONT_10"
+          "participant_id": "dRNA_ONT_LS_rS"
         },
         {
           "metric_x": 801,
           "metric_y": 1.8172,
-          "participant_id": "ONT_11"
+          "participant_id": "R2C2_ONT_LO_IQ"
         },
         {
           "metric_x": 1768,
           "metric_y": 8.2958,
-          "participant_id": "ONT_2"
+          "participant_id": "cDNA_ONT_LO_Ba"
         },
         {
           "metric_x": 206,
           "metric_y": 0.9401,
-          "participant_id": "ONT_3"
+          "participant_id": "dRNA_ONT_LO_Ba"
         },
         {
           "metric_x": 297,
           "metric_y": 1.0977,
-          "participant_id": "ONT_4"
+          "participant_id": "R2C2_ONT_LO_Ba"
         },
         {
           "metric_x": 4785,
           "metric_y": 5.5821,
-          "participant_id": "ONT_5"
+          "participant_id": "cDNA_ONT_LO_Bl"
         },
         {
           "metric_x": 7514,
           "metric_y": 6.9682,
-          "participant_id": "ONT_6"
+          "participant_id": "cDNA_ONT_LS_Bl"
         },
         {
           "metric_x": 14922,
           "metric_y": 19.8679,
-          "participant_id": "ONT_7"
+          "participant_id": "cDNA_ONT_LO_IQ"
         },
         {
           "metric_x": 54202,
           "metric_y": 37.4447,
-          "participant_id": "ONT_8"
+          "participant_id": "cDNA_ONT_LS_rS"
         },
         {
           "metric_x": 1130,
           "metric_y": 3.836,
-          "participant_id": "ONT_9"
+          "participant_id": "dRNA_ONT_LO_IQ"
         },
         {
           "metric_x": 318,
           "metric_y": 2.1124,
-          "participant_id": "PB_1"
+          "participant_id": "CapTrap_PacBio_LO_Ba"
         },
         {
           "metric_x": 434,
           "metric_y": 1.5947,
-          "participant_id": "PB_2"
+          "participant_id": "cDNA_PacBio_LO_Ba"
         },
         {
           "metric_x": 977,
           "metric_y": 3.4532,
-          "participant_id": "PB_3"
+          "participant_id": "CapTrap_PacBio_LO_IQ"
         },
         {
           "metric_x": 1603,
           "metric_y": 3.0277,
-          "participant_id": "PB_4"
+          "participant_id": "cDNA_PacBio_LO_IQ"
         },
         {
           "metric_x": 71449,
           "metric_y": 43.5354,
-          "participant_id": "PB_5"
+          "participant_id": "cDNA_PacBio_LS_rS"
         }
       ],
       "visualization": {
