@@ -1,5 +1,5 @@
-# LRGASP Event 2 (challenge 3) OpenEBench workflow
-The workflow used to run the [LRGASP event 2 docker](https://github.com/TianYuan-Liu/lrgasp-challenge-3_benchmarking_docker) in the [OpenEBench VRE executor](https://github.com/inab/vre-process_nextflow-executor). 
+# LRGASP challenge 3 mouse OpenEBench workflow
+The workflow used to run the [LRGASP challenge 3 mouse docker](https://github.com/TianYuan-Liu/lrgasp-challenge-3_benchmarking_docker) in the [OpenEBench VRE executor](https://github.com/inab/vre-process_nextflow-executor). 
 
 The repository includes several files:
 
@@ -15,7 +15,7 @@ The repository includes several files:
 cd vre-process_nextflow-executor/tests
 ```
 
-2. Clone the [LRGASP workflow repository](https://github.com/TianYuan-Liu/lrgasp-challenge-3_benchmarking_workflow) and rename the folder to LRGASP
+2. Clone the [LRGASP mouse workflow repository](https://github.com/TianYuan-Liu/lrgasp-challenge-3_benchmarking_workflow) and rename the folder to LRGASP
 ```
 git clone https://github.com/TianYuan-Liu/lrgasp-challenge-3_benchmarking_workflow.git
 mv lrgasp-challenge-3_benchmarking_workflow LRGASP
