@@ -1,0 +1,752 @@
+[
+{
+    "_id": "LRGASP:rnaSPAdes_P",
+    "challenge_id": [
+        "mouse_num_trans_vs_with_coding_potential_cDNA-Illumina-SO",
+        "mouse_num_trans_vs_with_coding_potential_dRNA-ONT-LS",
+        "mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LS",
+        "mouse_num_trans_vs_with_coding_potential_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:Bambu_P",
+    "challenge_id": [
+        "mouse_num_trans_vs_with_coding_potential_CapTrap-ONT-LO",
+        "mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LO",
+        "mouse_num_trans_vs_with_coding_potential_dRNA-ONT-LO",
+        "mouse_num_trans_vs_with_coding_potential_R2C2-ONT-LO",
+        "mouse_num_trans_vs_with_coding_potential_CapTrap-PacBio-LO",
+        "mouse_num_trans_vs_with_coding_potential_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:StringTie2--IsoQuant_P",
+    "challenge_id": [
+        "mouse_num_trans_vs_with_coding_potential_R2C2-ONT-LO",
+        "mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LO",
+        "mouse_num_trans_vs_with_coding_potential_dRNA-ONT-LO",
+        "mouse_num_trans_vs_with_coding_potential_CapTrap-PacBio-LO",
+        "mouse_num_trans_vs_with_coding_potential_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:RNA-Bloom_P",
+    "challenge_id": [
+        "mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LO",
+        "mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-Illumina-SO_rnaSPAdes_Number of transcripts_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts",
+        "value": 218462
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-Illumina-SO_rnaSPAdes_Number of transcripts with coding potential_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts with coding potential",
+        "value": 32220
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_CapTrap-ONT-LO_Bambu_Number of transcripts_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts",
+        "value": 23487
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_CapTrap-ONT-LO_Bambu_Number of transcripts with coding potential_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts with coding potential",
+        "value": 17767
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_dRNA-ONT-LS_rnaSPAdes_Number of transcripts_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts",
+        "value": 92772
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_dRNA-ONT-LS_rnaSPAdes_Number of transcripts with coding potential_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts with coding potential",
+        "value": 32492
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_R2C2-ONT-LO_StringTie2--IsoQuant_Number of transcripts_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts",
+        "value": 44031
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_R2C2-ONT-LO_StringTie2--IsoQuant_Number of transcripts with coding potential_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts with coding potential",
+        "value": 40612
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LO_Bambu_Number of transcripts_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts",
+        "value": 21318
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LO_Bambu_Number of transcripts with coding potential_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts with coding potential",
+        "value": 16144
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_dRNA-ONT-LO_Bambu_Number of transcripts_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts",
+        "value": 21900
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_dRNA-ONT-LO_Bambu_Number of transcripts with coding potential_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts with coding potential",
+        "value": 20096
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_R2C2-ONT-LO_Bambu_Number of transcripts_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts",
+        "value": 27031
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_R2C2-ONT-LO_Bambu_Number of transcripts with coding potential_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts with coding potential",
+        "value": 25247
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LO_RNA-Bloom_Number of transcripts_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts",
+        "value": 85424
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LO_RNA-Bloom_Number of transcripts with coding potential_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts with coding potential",
+        "value": 68624
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LS_RNA-Bloom_Number of transcripts_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts",
+        "value": 107530
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LS_RNA-Bloom_Number of transcripts with coding potential_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts with coding potential",
+        "value": 82418
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LO_StringTie2--IsoQuant_Number of transcripts_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts",
+        "value": 75779
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LO_StringTie2--IsoQuant_Number of transcripts with coding potential_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts with coding potential",
+        "value": 44593
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LS_rnaSPAdes_Number of transcripts_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts",
+        "value": 151439
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LS_rnaSPAdes_Number of transcripts with coding potential_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts with coding potential",
+        "value": 43061
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_dRNA-ONT-LO_StringTie2--IsoQuant_Number of transcripts_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts",
+        "value": 29400
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_dRNA-ONT-LO_StringTie2--IsoQuant_Number of transcripts with coding potential_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts with coding potential",
+        "value": 26132
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_CapTrap-PacBio-LO_Bambu_Number of transcripts_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts",
+        "value": 15038
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_CapTrap-PacBio-LO_Bambu_Number of transcripts with coding potential_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts with coding potential",
+        "value": 13324
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-PacBio-LO_Bambu_Number of transcripts_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts",
+        "value": 27208
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-PacBio-LO_Bambu_Number of transcripts with coding potential_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts with coding potential",
+        "value": 25604
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_CapTrap-PacBio-LO_StringTie2--IsoQuant_Number of transcripts_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts",
+        "value": 28246
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_CapTrap-PacBio-LO_StringTie2--IsoQuant_Number of transcripts with coding potential_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts with coding potential",
+        "value": 24177
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-PacBio-LO_StringTie2--IsoQuant_Number of transcripts_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts",
+        "value": 52902
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-PacBio-LO_StringTie2--IsoQuant_Number of transcripts with coding potential_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts with coding potential",
+        "value": 48916
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-PacBio-LS_rnaSPAdes_Number of transcripts_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts",
+        "value": 171115
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-PacBio-LS_rnaSPAdes_Number of transcripts with coding potential_A",
+    "challenge_id": "mouse_num_trans_vs_with_coding_potential_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Number of transcripts with coding potential",
+        "value": 43688
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-Illumina-SO_agg_Number of transcripts+Number of transcripts with coding potential",
+    "challenge_ids": [
+        "mouse_num_trans_vs_with_coding_potential_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 218462,
+                    "metric_y": 32220,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Number of transcripts",
+                "y_axis": "Number of transcripts with coding potential"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_CapTrap-ONT-LO_agg_Number of transcripts+Number of transcripts with coding potential",
+    "challenge_ids": [
+        "mouse_num_trans_vs_with_coding_potential_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 23487,
+                    "metric_y": 17767,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Number of transcripts",
+                "y_axis": "Number of transcripts with coding potential"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_dRNA-ONT-LS_agg_Number of transcripts+Number of transcripts with coding potential",
+    "challenge_ids": [
+        "mouse_num_trans_vs_with_coding_potential_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 92772,
+                    "metric_y": 32492,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Number of transcripts",
+                "y_axis": "Number of transcripts with coding potential"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_R2C2-ONT-LO_agg_Number of transcripts+Number of transcripts with coding potential",
+    "challenge_ids": [
+        "mouse_num_trans_vs_with_coding_potential_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 44031,
+                    "metric_y": 40612,
+                    "participant_id": "StringTie2--IsoQuant"
+                },
+                {
+                    "metric_x": 27031,
+                    "metric_y": 25247,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Number of transcripts",
+                "y_axis": "Number of transcripts with coding potential"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LO_agg_Number of transcripts+Number of transcripts with coding potential",
+    "challenge_ids": [
+        "mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 21318,
+                    "metric_y": 16144,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 85424,
+                    "metric_y": 68624,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_x": 75779,
+                    "metric_y": 44593,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Number of transcripts",
+                "y_axis": "Number of transcripts with coding potential"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_dRNA-ONT-LO_agg_Number of transcripts+Number of transcripts with coding potential",
+    "challenge_ids": [
+        "mouse_num_trans_vs_with_coding_potential_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 21900,
+                    "metric_y": 20096,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 29400,
+                    "metric_y": 26132,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Number of transcripts",
+                "y_axis": "Number of transcripts with coding potential"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LS_agg_Number of transcripts+Number of transcripts with coding potential",
+    "challenge_ids": [
+        "mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 107530,
+                    "metric_y": 82418,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_x": 151439,
+                    "metric_y": 43061,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Number of transcripts",
+                "y_axis": "Number of transcripts with coding potential"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_CapTrap-PacBio-LO_agg_Number of transcripts+Number of transcripts with coding potential",
+    "challenge_ids": [
+        "mouse_num_trans_vs_with_coding_potential_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 15038,
+                    "metric_y": 13324,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 28246,
+                    "metric_y": 24177,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Number of transcripts",
+                "y_axis": "Number of transcripts with coding potential"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-PacBio-LO_agg_Number of transcripts+Number of transcripts with coding potential",
+    "challenge_ids": [
+        "mouse_num_trans_vs_with_coding_potential_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 27208,
+                    "metric_y": 25604,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 52902,
+                    "metric_y": 48916,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Number of transcripts",
+                "y_axis": "Number of transcripts with coding potential"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_num_trans_vs_with_coding_potential_cDNA-PacBio-LS_agg_Number of transcripts+Number of transcripts with coding potential",
+    "challenge_ids": [
+        "mouse_num_trans_vs_with_coding_potential_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 171115,
+                    "metric_y": 43688,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Number of transcripts",
+                "y_axis": "Number of transcripts with coding potential"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "id": "mouse_num_trans_vs_with_coding_potential_cDNA-Illumina-SO",
+    "participants": [
+        "rnaSPAdes"
+    ]
+},
+{
+    "id": "mouse_num_trans_vs_with_coding_potential_CapTrap-ONT-LO",
+    "participants": [
+        "Bambu"
+    ]
+},
+{
+    "id": "mouse_num_trans_vs_with_coding_potential_R2C2-ONT-LO",
+    "participants": [
+        "StringTie2--IsoQuant"
+    ]
+},
+{
+    "id": "mouse_num_trans_vs_with_coding_potential_cDNA-ONT-LO",
+    "participants": [
+        "RNA-Bloom"
+    ]
+}
+]

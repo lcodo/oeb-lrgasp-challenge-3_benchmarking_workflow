@@ -1,0 +1,752 @@
+[
+{
+    "_id": "LRGASP:rnaSPAdes_P",
+    "challenge_id": [
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-Illumina-SO",
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LS",
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LS",
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:Bambu_P",
+    "challenge_id": [
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-ONT-LO",
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO",
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LO",
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO",
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO",
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:StringTie2--IsoQuant_P",
+    "challenge_id": [
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO",
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO",
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LO",
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO",
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:RNA-Bloom_P",
+    "challenge_id": [
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO",
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-Illumina-SO_rnaSPAdes_% Transcripts with possible RT-switching_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 2.03
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-Illumina-SO_rnaSPAdes_% Transcripts with possible intra-priming_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 3.2
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-ONT-LO_Bambu_% Transcripts with possible RT-switching_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 5.29
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-ONT-LO_Bambu_% Transcripts with possible intra-priming_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 3.28
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LS_rnaSPAdes_% Transcripts with possible RT-switching_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 3.99
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LS_rnaSPAdes_% Transcripts with possible intra-priming_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 3.32
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO_StringTie2--IsoQuant_% Transcripts with possible RT-switching_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 5.82
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO_StringTie2--IsoQuant_% Transcripts with possible intra-priming_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 1.1
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO_Bambu_% Transcripts with possible RT-switching_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 10.34
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO_Bambu_% Transcripts with possible intra-priming_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 2.81
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LO_Bambu_% Transcripts with possible RT-switching_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 6.36
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LO_Bambu_% Transcripts with possible intra-priming_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 0.74
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO_Bambu_% Transcripts with possible RT-switching_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 6.72
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO_Bambu_% Transcripts with possible intra-priming_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 1.72
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO_RNA-Bloom_% Transcripts with possible RT-switching_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 6.28
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO_RNA-Bloom_% Transcripts with possible intra-priming_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 3.39
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LS_RNA-Bloom_% Transcripts with possible RT-switching_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 5.62
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LS_RNA-Bloom_% Transcripts with possible intra-priming_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 3.25
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO_StringTie2--IsoQuant_% Transcripts with possible RT-switching_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 13.61
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO_StringTie2--IsoQuant_% Transcripts with possible intra-priming_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 1.01
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LS_rnaSPAdes_% Transcripts with possible RT-switching_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 2.89
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LS_rnaSPAdes_% Transcripts with possible intra-priming_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 3.67
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LO_StringTie2--IsoQuant_% Transcripts with possible RT-switching_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 7.21
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LO_StringTie2--IsoQuant_% Transcripts with possible intra-priming_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 1.35
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO_Bambu_% Transcripts with possible RT-switching_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 7.01
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO_Bambu_% Transcripts with possible intra-priming_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 1.74
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LO_Bambu_% Transcripts with possible RT-switching_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 7.72
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LO_Bambu_% Transcripts with possible intra-priming_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 1.69
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO_StringTie2--IsoQuant_% Transcripts with possible RT-switching_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 6.04
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO_StringTie2--IsoQuant_% Transcripts with possible intra-priming_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 1.59
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LO_StringTie2--IsoQuant_% Transcripts with possible RT-switching_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 6.67
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LO_StringTie2--IsoQuant_% Transcripts with possible intra-priming_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 1.02
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LS_rnaSPAdes_% Transcripts with possible RT-switching_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible RT-switching",
+        "value": 2.61
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LS_rnaSPAdes_% Transcripts with possible intra-priming_A",
+    "challenge_id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts with possible intra-priming",
+        "value": 3.67
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-Illumina-SO_agg_% Transcripts with possible RT-switching+% Transcripts with possible intra-priming",
+    "challenge_ids": [
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 2.03,
+                    "metric_y": 3.2,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts with possible RT-switching",
+                "y_axis": "% Transcripts with possible intra-priming"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-ONT-LO_agg_% Transcripts with possible RT-switching+% Transcripts with possible intra-priming",
+    "challenge_ids": [
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 5.29,
+                    "metric_y": 3.28,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts with possible RT-switching",
+                "y_axis": "% Transcripts with possible intra-priming"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LS_agg_% Transcripts with possible RT-switching+% Transcripts with possible intra-priming",
+    "challenge_ids": [
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 3.99,
+                    "metric_y": 3.32,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts with possible RT-switching",
+                "y_axis": "% Transcripts with possible intra-priming"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO_agg_% Transcripts with possible RT-switching+% Transcripts with possible intra-priming",
+    "challenge_ids": [
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 5.82,
+                    "metric_y": 1.1,
+                    "participant_id": "StringTie2--IsoQuant"
+                },
+                {
+                    "metric_x": 6.72,
+                    "metric_y": 1.72,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts with possible RT-switching",
+                "y_axis": "% Transcripts with possible intra-priming"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO_agg_% Transcripts with possible RT-switching+% Transcripts with possible intra-priming",
+    "challenge_ids": [
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 10.34,
+                    "metric_y": 2.81,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 6.28,
+                    "metric_y": 3.39,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_x": 13.61,
+                    "metric_y": 1.01,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts with possible RT-switching",
+                "y_axis": "% Transcripts with possible intra-priming"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LO_agg_% Transcripts with possible RT-switching+% Transcripts with possible intra-priming",
+    "challenge_ids": [
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 6.36,
+                    "metric_y": 0.74,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 7.21,
+                    "metric_y": 1.35,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts with possible RT-switching",
+                "y_axis": "% Transcripts with possible intra-priming"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LS_agg_% Transcripts with possible RT-switching+% Transcripts with possible intra-priming",
+    "challenge_ids": [
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 5.62,
+                    "metric_y": 3.25,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_x": 2.89,
+                    "metric_y": 3.67,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts with possible RT-switching",
+                "y_axis": "% Transcripts with possible intra-priming"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO_agg_% Transcripts with possible RT-switching+% Transcripts with possible intra-priming",
+    "challenge_ids": [
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 7.01,
+                    "metric_y": 1.74,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 6.04,
+                    "metric_y": 1.59,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts with possible RT-switching",
+                "y_axis": "% Transcripts with possible intra-priming"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LO_agg_% Transcripts with possible RT-switching+% Transcripts with possible intra-priming",
+    "challenge_ids": [
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 7.72,
+                    "metric_y": 1.69,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 6.67,
+                    "metric_y": 1.02,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts with possible RT-switching",
+                "y_axis": "% Transcripts with possible intra-priming"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LS_agg_% Transcripts with possible RT-switching+% Transcripts with possible intra-priming",
+    "challenge_ids": [
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 2.61,
+                    "metric_y": 3.67,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts with possible RT-switching",
+                "y_axis": "% Transcripts with possible intra-priming"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-Illumina-SO",
+    "participants": [
+        "rnaSPAdes"
+    ]
+},
+{
+    "id": "mouse_%_trans_with_intra-priming_vs_rt_switching_CapTrap-ONT-LO",
+    "participants": [
+        "Bambu"
+    ]
+},
+{
+    "id": "mouse_%_trans_with_intra-priming_vs_rt_switching_R2C2-ONT-LO",
+    "participants": [
+        "StringTie2--IsoQuant"
+    ]
+},
+{
+    "id": "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LO",
+    "participants": [
+        "RNA-Bloom"
+    ]
+}
+]

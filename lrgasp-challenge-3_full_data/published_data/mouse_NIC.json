@@ -1,0 +1,752 @@
+[
+{
+    "_id": "LRGASP:rnaSPAdes_P",
+    "challenge_id": [
+        "mouse_NIC_cDNA-Illumina-SO",
+        "mouse_NIC_dRNA-ONT-LS",
+        "mouse_NIC_cDNA-ONT-LS",
+        "mouse_NIC_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:Bambu_P",
+    "challenge_id": [
+        "mouse_NIC_CapTrap-ONT-LO",
+        "mouse_NIC_cDNA-ONT-LO",
+        "mouse_NIC_dRNA-ONT-LO",
+        "mouse_NIC_R2C2-ONT-LO",
+        "mouse_NIC_CapTrap-PacBio-LO",
+        "mouse_NIC_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:StringTie2--IsoQuant_P",
+    "challenge_id": [
+        "mouse_NIC_R2C2-ONT-LO",
+        "mouse_NIC_cDNA-ONT-LO",
+        "mouse_NIC_dRNA-ONT-LO",
+        "mouse_NIC_CapTrap-PacBio-LO",
+        "mouse_NIC_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:RNA-Bloom_P",
+    "challenge_id": [
+        "mouse_NIC_cDNA-ONT-LO",
+        "mouse_NIC_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-Illumina-SO_rnaSPAdes_Absolute value_A",
+    "challenge_id": "mouse_NIC_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Absolute value",
+        "value": 8802
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-Illumina-SO_rnaSPAdes_Relative value (%)_A",
+    "challenge_id": "mouse_NIC_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Relative value (%)",
+        "value": 4.5767
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_CapTrap-ONT-LO_Bambu_Absolute value_A",
+    "challenge_id": "mouse_NIC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Absolute value",
+        "value": 1507
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_CapTrap-ONT-LO_Bambu_Relative value (%)_A",
+    "challenge_id": "mouse_NIC_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Relative value (%)",
+        "value": 6.4019
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_dRNA-ONT-LS_rnaSPAdes_Absolute value_A",
+    "challenge_id": "mouse_NIC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Absolute value",
+        "value": 5813
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_dRNA-ONT-LS_rnaSPAdes_Relative value (%)_A",
+    "challenge_id": "mouse_NIC_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Relative value (%)",
+        "value": 6.33
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_R2C2-ONT-LO_StringTie2--IsoQuant_Absolute value_A",
+    "challenge_id": "mouse_NIC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Absolute value",
+        "value": 10854
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_R2C2-ONT-LO_StringTie2--IsoQuant_Relative value (%)_A",
+    "challenge_id": "mouse_NIC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Relative value (%)",
+        "value": 24.624
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-ONT-LO_Bambu_Absolute value_A",
+    "challenge_id": "mouse_NIC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Absolute value",
+        "value": 1115
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-ONT-LO_Bambu_Relative value (%)_A",
+    "challenge_id": "mouse_NIC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Relative value (%)",
+        "value": 5.2318
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_dRNA-ONT-LO_Bambu_Absolute value_A",
+    "challenge_id": "mouse_NIC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Absolute value",
+        "value": 1542
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_dRNA-ONT-LO_Bambu_Relative value (%)_A",
+    "challenge_id": "mouse_NIC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Relative value (%)",
+        "value": 7.0369
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_R2C2-ONT-LO_Bambu_Absolute value_A",
+    "challenge_id": "mouse_NIC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Absolute value",
+        "value": 4294
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_R2C2-ONT-LO_Bambu_Relative value (%)_A",
+    "challenge_id": "mouse_NIC_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Relative value (%)",
+        "value": 15.8708
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-ONT-LO_RNA-Bloom_Absolute value_A",
+    "challenge_id": "mouse_NIC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Absolute value",
+        "value": 12392
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-ONT-LO_RNA-Bloom_Relative value (%)_A",
+    "challenge_id": "mouse_NIC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Relative value (%)",
+        "value": 14.4564
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-ONT-LS_RNA-Bloom_Absolute value_A",
+    "challenge_id": "mouse_NIC_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Absolute value",
+        "value": 15500
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-ONT-LS_RNA-Bloom_Relative value (%)_A",
+    "challenge_id": "mouse_NIC_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Relative value (%)",
+        "value": 14.3742
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-ONT-LO_StringTie2--IsoQuant_Absolute value_A",
+    "challenge_id": "mouse_NIC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Absolute value",
+        "value": 9811
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-ONT-LO_StringTie2--IsoQuant_Relative value (%)_A",
+    "challenge_id": "mouse_NIC_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Relative value (%)",
+        "value": 13.0629
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-ONT-LS_rnaSPAdes_Absolute value_A",
+    "challenge_id": "mouse_NIC_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Absolute value",
+        "value": 9570
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-ONT-LS_rnaSPAdes_Relative value (%)_A",
+    "challenge_id": "mouse_NIC_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Relative value (%)",
+        "value": 6.6113
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_dRNA-ONT-LO_StringTie2--IsoQuant_Absolute value_A",
+    "challenge_id": "mouse_NIC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Absolute value",
+        "value": 5479
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_dRNA-ONT-LO_StringTie2--IsoQuant_Relative value (%)_A",
+    "challenge_id": "mouse_NIC_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Relative value (%)",
+        "value": 18.5994
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_CapTrap-PacBio-LO_Bambu_Absolute value_A",
+    "challenge_id": "mouse_NIC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Absolute value",
+        "value": 1398
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_CapTrap-PacBio-LO_Bambu_Relative value (%)_A",
+    "challenge_id": "mouse_NIC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Relative value (%)",
+        "value": 9.2866
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-PacBio-LO_Bambu_Absolute value_A",
+    "challenge_id": "mouse_NIC_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Absolute value",
+        "value": 5142
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-PacBio-LO_Bambu_Relative value (%)_A",
+    "challenge_id": "mouse_NIC_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Relative value (%)",
+        "value": 18.894
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_CapTrap-PacBio-LO_StringTie2--IsoQuant_Absolute value_A",
+    "challenge_id": "mouse_NIC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Absolute value",
+        "value": 5522
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_CapTrap-PacBio-LO_StringTie2--IsoQuant_Relative value (%)_A",
+    "challenge_id": "mouse_NIC_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Relative value (%)",
+        "value": 19.5172
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-PacBio-LO_StringTie2--IsoQuant_Absolute value_A",
+    "challenge_id": "mouse_NIC_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Absolute value",
+        "value": 15901
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-PacBio-LO_StringTie2--IsoQuant_Relative value (%)_A",
+    "challenge_id": "mouse_NIC_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Relative value (%)",
+        "value": 30.0336
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-PacBio-LS_rnaSPAdes_Absolute value_A",
+    "challenge_id": "mouse_NIC_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Absolute value",
+        "value": 10181
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-PacBio-LS_rnaSPAdes_Relative value (%)_A",
+    "challenge_id": "mouse_NIC_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "Relative value (%)",
+        "value": 6.2035
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-Illumina-SO_agg_Absolute value+Relative value (%)",
+    "challenge_ids": [
+        "mouse_NIC_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 8802,
+                    "metric_y": 4.5767,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Absolute value",
+                "y_axis": "Relative value (%)"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_NIC_CapTrap-ONT-LO_agg_Absolute value+Relative value (%)",
+    "challenge_ids": [
+        "mouse_NIC_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 1507,
+                    "metric_y": 6.4019,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Absolute value",
+                "y_axis": "Relative value (%)"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_NIC_dRNA-ONT-LS_agg_Absolute value+Relative value (%)",
+    "challenge_ids": [
+        "mouse_NIC_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 5813,
+                    "metric_y": 6.33,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Absolute value",
+                "y_axis": "Relative value (%)"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_NIC_R2C2-ONT-LO_agg_Absolute value+Relative value (%)",
+    "challenge_ids": [
+        "mouse_NIC_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 10854,
+                    "metric_y": 24.624,
+                    "participant_id": "StringTie2--IsoQuant"
+                },
+                {
+                    "metric_x": 4294,
+                    "metric_y": 15.8708,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Absolute value",
+                "y_axis": "Relative value (%)"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-ONT-LO_agg_Absolute value+Relative value (%)",
+    "challenge_ids": [
+        "mouse_NIC_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 1115,
+                    "metric_y": 5.2318,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 12392,
+                    "metric_y": 14.4564,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_x": 9811,
+                    "metric_y": 13.0629,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Absolute value",
+                "y_axis": "Relative value (%)"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_NIC_dRNA-ONT-LO_agg_Absolute value+Relative value (%)",
+    "challenge_ids": [
+        "mouse_NIC_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 1542,
+                    "metric_y": 7.0369,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 5479,
+                    "metric_y": 18.5994,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Absolute value",
+                "y_axis": "Relative value (%)"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-ONT-LS_agg_Absolute value+Relative value (%)",
+    "challenge_ids": [
+        "mouse_NIC_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 15500,
+                    "metric_y": 14.3742,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_x": 9570,
+                    "metric_y": 6.6113,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Absolute value",
+                "y_axis": "Relative value (%)"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_NIC_CapTrap-PacBio-LO_agg_Absolute value+Relative value (%)",
+    "challenge_ids": [
+        "mouse_NIC_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 1398,
+                    "metric_y": 9.2866,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 5522,
+                    "metric_y": 19.5172,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Absolute value",
+                "y_axis": "Relative value (%)"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-PacBio-LO_agg_Absolute value+Relative value (%)",
+    "challenge_ids": [
+        "mouse_NIC_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 5142,
+                    "metric_y": 18.894,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 15901,
+                    "metric_y": 30.0336,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Absolute value",
+                "y_axis": "Relative value (%)"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_NIC_cDNA-PacBio-LS_agg_Absolute value+Relative value (%)",
+    "challenge_ids": [
+        "mouse_NIC_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 10181,
+                    "metric_y": 6.2035,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Absolute value",
+                "y_axis": "Relative value (%)"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "id": "mouse_NIC_cDNA-Illumina-SO",
+    "participants": [
+        "rnaSPAdes"
+    ]
+},
+{
+    "id": "mouse_NIC_CapTrap-ONT-LO",
+    "participants": [
+        "Bambu"
+    ]
+},
+{
+    "id": "mouse_NIC_R2C2-ONT-LO",
+    "participants": [
+        "StringTie2--IsoQuant"
+    ]
+},
+{
+    "id": "mouse_NIC_cDNA-ONT-LO",
+    "participants": [
+        "RNA-Bloom"
+    ]
+}
+]

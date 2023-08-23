@@ -1,0 +1,752 @@
+[
+{
+    "_id": "LRGASP:rnaSPAdes_P",
+    "challenge_id": [
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-Illumina-SO",
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_dRNA-ONT-LS",
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LS",
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:Bambu_P",
+    "challenge_id": [
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-ONT-LO",
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LO",
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_dRNA-ONT-LO",
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_R2C2-ONT-LO",
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-PacBio-LO",
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:StringTie2--IsoQuant_P",
+    "challenge_id": [
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_R2C2-ONT-LO",
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LO",
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_dRNA-ONT-LO",
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-PacBio-LO",
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:RNA-Bloom_P",
+    "challenge_id": [
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LO",
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-Illumina-SO_rnaSPAdes_% Splice Junctions with short-read coverage_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Splice Junctions with short-read coverage",
+        "value": 52.85
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-Illumina-SO_rnaSPAdes_% canonical Splice Junctions_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% canonical Splice Junctions",
+        "value": 55.57
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-ONT-LO_Bambu_% Splice Junctions with short-read coverage_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Splice Junctions with short-read coverage",
+        "value": 93.83
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-ONT-LO_Bambu_% canonical Splice Junctions_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% canonical Splice Junctions",
+        "value": 99.81
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_dRNA-ONT-LS_rnaSPAdes_% Splice Junctions with short-read coverage_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Splice Junctions with short-read coverage",
+        "value": 53.58
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_dRNA-ONT-LS_rnaSPAdes_% canonical Splice Junctions_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% canonical Splice Junctions",
+        "value": 56.08
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_R2C2-ONT-LO_StringTie2--IsoQuant_% Splice Junctions with short-read coverage_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Splice Junctions with short-read coverage",
+        "value": 93.75
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_R2C2-ONT-LO_StringTie2--IsoQuant_% canonical Splice Junctions_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% canonical Splice Junctions",
+        "value": 99.03
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LO_Bambu_% Splice Junctions with short-read coverage_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Splice Junctions with short-read coverage",
+        "value": 90.83
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LO_Bambu_% canonical Splice Junctions_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% canonical Splice Junctions",
+        "value": 96.82
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_dRNA-ONT-LO_Bambu_% Splice Junctions with short-read coverage_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Splice Junctions with short-read coverage",
+        "value": 98.14
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_dRNA-ONT-LO_Bambu_% canonical Splice Junctions_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% canonical Splice Junctions",
+        "value": 99.89
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_R2C2-ONT-LO_Bambu_% Splice Junctions with short-read coverage_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Splice Junctions with short-read coverage",
+        "value": 97.74
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_R2C2-ONT-LO_Bambu_% canonical Splice Junctions_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% canonical Splice Junctions",
+        "value": 99.89
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LO_RNA-Bloom_% Splice Junctions with short-read coverage_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Splice Junctions with short-read coverage",
+        "value": 59.49
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LO_RNA-Bloom_% canonical Splice Junctions_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% canonical Splice Junctions",
+        "value": 67.89
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LS_RNA-Bloom_% Splice Junctions with short-read coverage_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Splice Junctions with short-read coverage",
+        "value": 56.43
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LS_RNA-Bloom_% canonical Splice Junctions_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% canonical Splice Junctions",
+        "value": 65.64
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LO_StringTie2--IsoQuant_% Splice Junctions with short-read coverage_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Splice Junctions with short-read coverage",
+        "value": 77.24
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LO_StringTie2--IsoQuant_% canonical Splice Junctions_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% canonical Splice Junctions",
+        "value": 94.35
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LS_rnaSPAdes_% Splice Junctions with short-read coverage_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Splice Junctions with short-read coverage",
+        "value": 52.8
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LS_rnaSPAdes_% canonical Splice Junctions_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% canonical Splice Junctions",
+        "value": 55.49
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_dRNA-ONT-LO_StringTie2--IsoQuant_% Splice Junctions with short-read coverage_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Splice Junctions with short-read coverage",
+        "value": 96.23
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_dRNA-ONT-LO_StringTie2--IsoQuant_% canonical Splice Junctions_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% canonical Splice Junctions",
+        "value": 99.35
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-PacBio-LO_Bambu_% Splice Junctions with short-read coverage_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Splice Junctions with short-read coverage",
+        "value": 98.79
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-PacBio-LO_Bambu_% canonical Splice Junctions_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% canonical Splice Junctions",
+        "value": 99.85
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-PacBio-LO_Bambu_% Splice Junctions with short-read coverage_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Splice Junctions with short-read coverage",
+        "value": 98.05
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-PacBio-LO_Bambu_% canonical Splice Junctions_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% canonical Splice Junctions",
+        "value": 99.81
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-PacBio-LO_StringTie2--IsoQuant_% Splice Junctions with short-read coverage_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Splice Junctions with short-read coverage",
+        "value": 95.71
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-PacBio-LO_StringTie2--IsoQuant_% canonical Splice Junctions_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% canonical Splice Junctions",
+        "value": 98.84
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-PacBio-LO_StringTie2--IsoQuant_% Splice Junctions with short-read coverage_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Splice Junctions with short-read coverage",
+        "value": 92.45
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-PacBio-LO_StringTie2--IsoQuant_% canonical Splice Junctions_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% canonical Splice Junctions",
+        "value": 98.11
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-PacBio-LS_rnaSPAdes_% Splice Junctions with short-read coverage_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Splice Junctions with short-read coverage",
+        "value": 52.72
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-PacBio-LS_rnaSPAdes_% canonical Splice Junctions_A",
+    "challenge_id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% canonical Splice Junctions",
+        "value": 55.42
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-Illumina-SO_agg_% Splice Junctions with short-read coverage+% canonical Splice Junctions",
+    "challenge_ids": [
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 52.85,
+                    "metric_y": 55.57,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Splice Junctions with short-read coverage",
+                "y_axis": "% canonical Splice Junctions"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-ONT-LO_agg_% Splice Junctions with short-read coverage+% canonical Splice Junctions",
+    "challenge_ids": [
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 93.83,
+                    "metric_y": 99.81,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Splice Junctions with short-read coverage",
+                "y_axis": "% canonical Splice Junctions"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_dRNA-ONT-LS_agg_% Splice Junctions with short-read coverage+% canonical Splice Junctions",
+    "challenge_ids": [
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 53.58,
+                    "metric_y": 56.08,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Splice Junctions with short-read coverage",
+                "y_axis": "% canonical Splice Junctions"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_R2C2-ONT-LO_agg_% Splice Junctions with short-read coverage+% canonical Splice Junctions",
+    "challenge_ids": [
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 93.75,
+                    "metric_y": 99.03,
+                    "participant_id": "StringTie2--IsoQuant"
+                },
+                {
+                    "metric_x": 97.74,
+                    "metric_y": 99.89,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Splice Junctions with short-read coverage",
+                "y_axis": "% canonical Splice Junctions"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LO_agg_% Splice Junctions with short-read coverage+% canonical Splice Junctions",
+    "challenge_ids": [
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 90.83,
+                    "metric_y": 96.82,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 59.49,
+                    "metric_y": 67.89,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_x": 77.24,
+                    "metric_y": 94.35,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Splice Junctions with short-read coverage",
+                "y_axis": "% canonical Splice Junctions"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_dRNA-ONT-LO_agg_% Splice Junctions with short-read coverage+% canonical Splice Junctions",
+    "challenge_ids": [
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 98.14,
+                    "metric_y": 99.89,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 96.23,
+                    "metric_y": 99.35,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Splice Junctions with short-read coverage",
+                "y_axis": "% canonical Splice Junctions"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LS_agg_% Splice Junctions with short-read coverage+% canonical Splice Junctions",
+    "challenge_ids": [
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 56.43,
+                    "metric_y": 65.64,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_x": 52.8,
+                    "metric_y": 55.49,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Splice Junctions with short-read coverage",
+                "y_axis": "% canonical Splice Junctions"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-PacBio-LO_agg_% Splice Junctions with short-read coverage+% canonical Splice Junctions",
+    "challenge_ids": [
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 98.79,
+                    "metric_y": 99.85,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 95.71,
+                    "metric_y": 98.84,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Splice Junctions with short-read coverage",
+                "y_axis": "% canonical Splice Junctions"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-PacBio-LO_agg_% Splice Junctions with short-read coverage+% canonical Splice Junctions",
+    "challenge_ids": [
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 98.05,
+                    "metric_y": 99.81,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 92.45,
+                    "metric_y": 98.11,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Splice Junctions with short-read coverage",
+                "y_axis": "% canonical Splice Junctions"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-PacBio-LS_agg_% Splice Junctions with short-read coverage+% canonical Splice Junctions",
+    "challenge_ids": [
+        "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 52.72,
+                    "metric_y": 55.42,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Splice Junctions with short-read coverage",
+                "y_axis": "% canonical Splice Junctions"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-Illumina-SO",
+    "participants": [
+        "rnaSPAdes"
+    ]
+},
+{
+    "id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_CapTrap-ONT-LO",
+    "participants": [
+        "Bambu"
+    ]
+},
+{
+    "id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_R2C2-ONT-LO",
+    "participants": [
+        "StringTie2--IsoQuant"
+    ]
+},
+{
+    "id": "mouse_%_canonical_SJ_vs_%_SJ_SR_coverage_cDNA-ONT-LO",
+    "participants": [
+        "RNA-Bloom"
+    ]
+}
+]
