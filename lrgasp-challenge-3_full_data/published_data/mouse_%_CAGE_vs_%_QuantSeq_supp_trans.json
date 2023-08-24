@@ -1,0 +1,752 @@
+[
+{
+    "_id": "LRGASP:rnaSPAdes_P",
+    "challenge_id": [
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-Illumina-SO",
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_dRNA-ONT-LS",
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LS",
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:Bambu_P",
+    "challenge_id": [
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-ONT-LO",
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO",
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_dRNA-ONT-LO",
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_R2C2-ONT-LO",
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-PacBio-LO",
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "Bambu",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:StringTie2--IsoQuant_P",
+    "challenge_id": [
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_R2C2-ONT-LO",
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO",
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_dRNA-ONT-LO",
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-PacBio-LO",
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:RNA-Bloom_P",
+    "challenge_id": [
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO",
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "attrs": [
+            "archive"
+        ],
+        "status": "ok",
+        "validation_date": "2023-07-06T08:40:07.590000+02:00"
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "participant"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-Illumina-SO_rnaSPAdes_% Transcripts supported by CAGE_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by CAGE",
+        "value": 6.5197
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-Illumina-SO_rnaSPAdes_% Transcripts supported by Quant-seq_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-Illumina-SO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by Quant-seq",
+        "value": 7.5394
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-ONT-LO_Bambu_% Transcripts supported by CAGE_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by CAGE",
+        "value": 51.8054
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-ONT-LO_Bambu_% Transcripts supported by Quant-seq_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by Quant-seq",
+        "value": 52.1283
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_dRNA-ONT-LS_rnaSPAdes_% Transcripts supported by CAGE_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by CAGE",
+        "value": 13.371
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_dRNA-ONT-LS_rnaSPAdes_% Transcripts supported by Quant-seq_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_dRNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by Quant-seq",
+        "value": 16.212
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_R2C2-ONT-LO_StringTie2--IsoQuant_% Transcripts supported by CAGE_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by CAGE",
+        "value": 30.4771
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_R2C2-ONT-LO_StringTie2--IsoQuant_% Transcripts supported by Quant-seq_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by Quant-seq",
+        "value": 58.0254
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO_Bambu_% Transcripts supported by CAGE_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by CAGE",
+        "value": 52.6792
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO_Bambu_% Transcripts supported by Quant-seq_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by Quant-seq",
+        "value": 56.8788
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_dRNA-ONT-LO_Bambu_% Transcripts supported by CAGE_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by CAGE",
+        "value": 46.315
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_dRNA-ONT-LO_Bambu_% Transcripts supported by Quant-seq_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by Quant-seq",
+        "value": 79.4186
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_R2C2-ONT-LO_Bambu_% Transcripts supported by CAGE_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by CAGE",
+        "value": 68.9311
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_R2C2-ONT-LO_Bambu_% Transcripts supported by Quant-seq_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_R2C2-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by Quant-seq",
+        "value": 63.4758
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO_RNA-Bloom_% Transcripts supported by CAGE_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by CAGE",
+        "value": 48.0646
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO_RNA-Bloom_% Transcripts supported by Quant-seq_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by Quant-seq",
+        "value": 56.4897
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LS_RNA-Bloom_% Transcripts supported by CAGE_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by CAGE",
+        "value": 44.8995
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LS_RNA-Bloom_% Transcripts supported by Quant-seq_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by Quant-seq",
+        "value": 52.8971
+    },
+    "participant_id": "RNA-Bloom",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO_StringTie2--IsoQuant_% Transcripts supported by CAGE_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by CAGE",
+        "value": 22.4496
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO_StringTie2--IsoQuant_% Transcripts supported by Quant-seq_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by Quant-seq",
+        "value": 39.9302
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LS_rnaSPAdes_% Transcripts supported by CAGE_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by CAGE",
+        "value": 10.5636
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LS_rnaSPAdes_% Transcripts supported by Quant-seq_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by Quant-seq",
+        "value": 11.7491
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_dRNA-ONT-LO_StringTie2--IsoQuant_% Transcripts supported by CAGE_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by CAGE",
+        "value": 36.9509
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_dRNA-ONT-LO_StringTie2--IsoQuant_% Transcripts supported by Quant-seq_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_dRNA-ONT-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by Quant-seq",
+        "value": 65.2183
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-PacBio-LO_Bambu_% Transcripts supported by CAGE_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by CAGE",
+        "value": 65.5308
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-PacBio-LO_Bambu_% Transcripts supported by Quant-seq_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by Quant-seq",
+        "value": 70.1209
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-PacBio-LO_Bambu_% Transcripts supported by CAGE_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by CAGE",
+        "value": 65.7321
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-PacBio-LO_Bambu_% Transcripts supported by Quant-seq_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by Quant-seq",
+        "value": 70.1415
+    },
+    "participant_id": "Bambu",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-PacBio-LO_StringTie2--IsoQuant_% Transcripts supported by CAGE_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by CAGE",
+        "value": 34.0826
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-PacBio-LO_StringTie2--IsoQuant_% Transcripts supported by Quant-seq_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by Quant-seq",
+        "value": 62.5526
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-PacBio-LO_StringTie2--IsoQuant_% Transcripts supported by CAGE_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by CAGE",
+        "value": 28.1599
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-PacBio-LO_StringTie2--IsoQuant_% Transcripts supported by Quant-seq_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-PacBio-LO",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by Quant-seq",
+        "value": 63.3367
+    },
+    "participant_id": "StringTie2--IsoQuant",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-PacBio-LS_rnaSPAdes_% Transcripts supported by CAGE_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by CAGE",
+        "value": 8.996
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-PacBio-LS_rnaSPAdes_% Transcripts supported by Quant-seq_A",
+    "challenge_id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-PacBio-LS",
+    "community_id": "LRGASP",
+    "metrics": {
+        "metric_id": "% Transcripts supported by Quant-seq",
+        "value": 10.3006
+    },
+    "participant_id": "rnaSPAdes",
+    "type": "assessment"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-Illumina-SO_agg_% Transcripts supported by CAGE+% Transcripts supported by Quant-seq",
+    "challenge_ids": [
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-Illumina-SO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 6.5197,
+                    "metric_y": 7.5394,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts supported by CAGE",
+                "y_axis": "% Transcripts supported by Quant-seq"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-ONT-LO_agg_% Transcripts supported by CAGE+% Transcripts supported by Quant-seq",
+    "challenge_ids": [
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 51.8054,
+                    "metric_y": 52.1283,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts supported by CAGE",
+                "y_axis": "% Transcripts supported by Quant-seq"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_dRNA-ONT-LS_agg_% Transcripts supported by CAGE+% Transcripts supported by Quant-seq",
+    "challenge_ids": [
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_dRNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 13.371,
+                    "metric_y": 16.212,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts supported by CAGE",
+                "y_axis": "% Transcripts supported by Quant-seq"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_R2C2-ONT-LO_agg_% Transcripts supported by CAGE+% Transcripts supported by Quant-seq",
+    "challenge_ids": [
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 30.4771,
+                    "metric_y": 58.0254,
+                    "participant_id": "StringTie2--IsoQuant"
+                },
+                {
+                    "metric_x": 68.9311,
+                    "metric_y": 63.4758,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts supported by CAGE",
+                "y_axis": "% Transcripts supported by Quant-seq"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO_agg_% Transcripts supported by CAGE+% Transcripts supported by Quant-seq",
+    "challenge_ids": [
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 52.6792,
+                    "metric_y": 56.8788,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 48.0646,
+                    "metric_y": 56.4897,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_x": 22.4496,
+                    "metric_y": 39.9302,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts supported by CAGE",
+                "y_axis": "% Transcripts supported by Quant-seq"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_dRNA-ONT-LO_agg_% Transcripts supported by CAGE+% Transcripts supported by Quant-seq",
+    "challenge_ids": [
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 46.315,
+                    "metric_y": 79.4186,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 36.9509,
+                    "metric_y": 65.2183,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts supported by CAGE",
+                "y_axis": "% Transcripts supported by Quant-seq"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LS_agg_% Transcripts supported by CAGE+% Transcripts supported by Quant-seq",
+    "challenge_ids": [
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 44.8995,
+                    "metric_y": 52.8971,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_x": 10.5636,
+                    "metric_y": 11.7491,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts supported by CAGE",
+                "y_axis": "% Transcripts supported by Quant-seq"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-PacBio-LO_agg_% Transcripts supported by CAGE+% Transcripts supported by Quant-seq",
+    "challenge_ids": [
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 65.5308,
+                    "metric_y": 70.1209,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 34.0826,
+                    "metric_y": 62.5526,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts supported by CAGE",
+                "y_axis": "% Transcripts supported by Quant-seq"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-PacBio-LO_agg_% Transcripts supported by CAGE+% Transcripts supported by Quant-seq",
+    "challenge_ids": [
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 65.7321,
+                    "metric_y": 70.1415,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 28.1599,
+                    "metric_y": 63.3367,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts supported by CAGE",
+                "y_axis": "% Transcripts supported by Quant-seq"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-PacBio-LS_agg_% Transcripts supported by CAGE+% Transcripts supported by Quant-seq",
+    "challenge_ids": [
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-PacBio-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 8.996,
+                    "metric_y": 10.3006,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts supported by CAGE",
+                "y_axis": "% Transcripts supported by Quant-seq"
+            }
+        }
+    },
+    "type": "aggregation"
+},
+{
+    "id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-Illumina-SO",
+    "participants": [
+        "rnaSPAdes"
+    ]
+},
+{
+    "id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-ONT-LO",
+    "participants": [
+        "Bambu"
+    ]
+},
+{
+    "id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_R2C2-ONT-LO",
+    "participants": [
+        "StringTie2--IsoQuant"
+    ]
+},
+{
+    "id": "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO",
+    "participants": [
+        "RNA-Bloom"
+    ]
+}
+]
