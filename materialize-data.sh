@@ -44,7 +44,7 @@ gunzip lrgasp_gencode_vM27_sirvs.gtf.gz
 mkdir busco_data && cd busco_data && mkdir lineages && cd lineages
 
 # download the file from https://busco-data.ezlab.org/v5/data/lineages/eutheria_odb10.2021-02-19.tar.gz to ${repodir}/public_ref/
-wget https://busco-data.ezlab.org/v5/data/lineages/eutheria_odb10.2021-02-19.tar.gz
+wget https://busco-data.ezlab.org/v5/data/lineages/eutheria_odb10.2024-01-08.tar.gz 
 
 # extract the tar.gz file to ${repodir}/public_ref/busco_data/lineages/eutheria_odb10.2021-02-19
 tar -xvzf eutheria_odb10.2021-02-19.tar.gz
