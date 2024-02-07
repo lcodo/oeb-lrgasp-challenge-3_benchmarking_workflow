@@ -1,0 +1,29 @@
+{
+    "_id": "LRGASP:mouse_Intergenic_dRNA-ONT-LO_agg_Absolute value+Relative value (%)",
+    "challenge_ids": [
+        "mouse_Intergenic_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 206,
+                    "metric_y": 0.9401,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 1130,
+                    "metric_y": 3.836,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Absolute value",
+                "y_axis": "Relative value (%)"
+            }
+        }
+    },
+    "type": "aggregation"
+}

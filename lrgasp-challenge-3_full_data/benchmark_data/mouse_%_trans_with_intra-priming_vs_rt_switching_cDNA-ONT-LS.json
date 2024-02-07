@@ -1,0 +1,29 @@
+{
+    "_id": "LRGASP:mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LS_agg_% Transcripts with possible RT-switching+% Transcripts with possible intra-priming",
+    "challenge_ids": [
+        "mouse_%_trans_with_intra-priming_vs_rt_switching_cDNA-ONT-LS"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 5.62,
+                    "metric_y": 3.25,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_x": 2.89,
+                    "metric_y": 3.67,
+                    "participant_id": "rnaSPAdes"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts with possible RT-switching",
+                "y_axis": "% Transcripts with possible intra-priming"
+            }
+        }
+    },
+    "type": "aggregation"
+}

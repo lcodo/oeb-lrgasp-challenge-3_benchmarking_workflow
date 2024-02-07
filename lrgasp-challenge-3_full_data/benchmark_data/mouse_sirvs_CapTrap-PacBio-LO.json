@@ -1,0 +1,29 @@
+{
+    "_id": "LRGASP:mouse_sirvs_CapTrap-PacBio-LO_agg_Recall+Precision",
+    "challenge_ids": [
+        "mouse_sirvs_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 0.18,
+                    "metric_y": 0.94,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 0.37,
+                    "metric_y": 0.62,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Recall",
+                "y_axis": "Precision"
+            }
+        }
+    },
+    "type": "aggregation"
+}

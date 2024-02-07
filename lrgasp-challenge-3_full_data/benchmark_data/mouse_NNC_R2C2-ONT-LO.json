@@ -1,0 +1,29 @@
+{
+    "_id": "LRGASP:mouse_NNC_R2C2-ONT-LO_agg_Absolute value+Relative value (%)",
+    "challenge_ids": [
+        "mouse_NNC_R2C2-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 11992,
+                    "metric_y": 27.2057,
+                    "participant_id": "StringTie2--IsoQuant"
+                },
+                {
+                    "metric_x": 4044,
+                    "metric_y": 14.9468,
+                    "participant_id": "Bambu"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Absolute value",
+                "y_axis": "Relative value (%)"
+            }
+        }
+    },
+    "type": "aggregation"
+}

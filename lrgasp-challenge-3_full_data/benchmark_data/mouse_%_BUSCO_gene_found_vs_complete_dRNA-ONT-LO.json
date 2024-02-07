@@ -1,0 +1,29 @@
+{
+    "_id": "LRGASP:mouse_%_BUSCO_gene_found_vs_complete_dRNA-ONT-LO_agg_% BUSCO gene found (complete + fragment)+% BUSCO gene complete",
+    "challenge_ids": [
+        "mouse_%_BUSCO_gene_found_vs_complete_dRNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 56.48,
+                    "metric_y": 54.94,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 67.06,
+                    "metric_y": 65.46,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% BUSCO gene found (complete + fragment)",
+                "y_axis": "% BUSCO gene complete"
+            }
+        }
+    },
+    "type": "aggregation"
+}

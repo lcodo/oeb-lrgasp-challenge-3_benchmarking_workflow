@@ -1,0 +1,34 @@
+{
+    "_id": "LRGASP:mouse_GenicIntron_cDNA-ONT-LO_agg_Absolute value+Relative value (%)",
+    "challenge_ids": [
+        "mouse_GenicIntron_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 0,
+                    "metric_y": 0,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 6,
+                    "metric_y": 0.007,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_x": 6,
+                    "metric_y": 0.008,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "Absolute value",
+                "y_axis": "Relative value (%)"
+            }
+        }
+    },
+    "type": "aggregation"
+}

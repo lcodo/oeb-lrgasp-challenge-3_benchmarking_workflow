@@ -1,0 +1,34 @@
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO_agg_% Transcripts supported by CAGE+% Transcripts supported by Quant-seq",
+    "challenge_ids": [
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_cDNA-ONT-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 52.6792,
+                    "metric_y": 56.8788,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 48.0646,
+                    "metric_y": 56.4897,
+                    "participant_id": "RNA-Bloom"
+                },
+                {
+                    "metric_x": 22.4496,
+                    "metric_y": 39.9302,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts supported by CAGE",
+                "y_axis": "% Transcripts supported by Quant-seq"
+            }
+        }
+    },
+    "type": "aggregation"
+}

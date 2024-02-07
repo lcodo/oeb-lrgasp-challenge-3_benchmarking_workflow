@@ -1,0 +1,29 @@
+{
+    "_id": "LRGASP:mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-PacBio-LO_agg_% Transcripts supported by CAGE+% Transcripts supported by Quant-seq",
+    "challenge_ids": [
+        "mouse_%_CAGE_vs_%_QuantSeq_supp_trans_CapTrap-PacBio-LO"
+    ],
+    "community_id": "LRGASP",
+    "datalink": {
+        "inline_data": {
+            "challenge_participants": [
+                {
+                    "metric_x": 65.5308,
+                    "metric_y": 70.1209,
+                    "participant_id": "Bambu"
+                },
+                {
+                    "metric_x": 34.0826,
+                    "metric_y": 62.5526,
+                    "participant_id": "StringTie2--IsoQuant"
+                }
+            ],
+            "visualization": {
+                "type": "2D-plot",
+                "x_axis": "% Transcripts supported by CAGE",
+                "y_axis": "% Transcripts supported by Quant-seq"
+            }
+        }
+    },
+    "type": "aggregation"
+}
