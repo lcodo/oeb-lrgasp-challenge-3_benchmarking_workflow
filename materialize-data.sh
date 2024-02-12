@@ -47,10 +47,10 @@ mkdir busco_data && cd busco_data && mkdir lineages && cd lineages
 wget https://busco-data.ezlab.org/v5/data/lineages/eutheria_odb10.2024-01-08.tar.gz 
 
 # extract the tar.gz file to ${repodir}/public_ref/busco_data/lineages/eutheria_odb10.2021-02-19
-tar -xvzf eutheria_odb10.2021-02-19.tar.gz
+tar -xvzf eutheria_odb10.2024-01-08.tar.gz
 
 # remove the tar.gz file
-rm eutheria_odb10.2021-02-19.tar.gz
+rm eutheria_odb10.2024-01-08.tar.gz
 cd .. && cd ..
 
 # download https://lrgasp.s3.amazonaws.com/lrgasp_grcm39_sirvs.fasta using wget
