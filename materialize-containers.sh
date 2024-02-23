@@ -1,7 +1,7 @@
 #!/bin/sh
 
-git_repo=https://github.com/TianYuan-Liu/lrgasp-challenge-3_benchmarking_docker.git
-git_tag=6ef76e40856103b2de2a1f00711cc805956e54e0
+git_repo=https://github.com/inab/lrgasp-challenge-3_benchmarking_docker.git
+git_tag=8f9ace30f5f4573043fe665b089981916a61441d
 
 docker_tag=0.9.2
 
